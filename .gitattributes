@@ -8,7 +8,7 @@
 *.dll binary
 *.gz binary
 # 校验清单、负载、译文源码和报告保留原始字节，防止换行转换破坏哈希。
-manifest.json -text
-payload/** -text
-src/** -text
-reports/** -text
+manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+payload/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+src/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+reports/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
