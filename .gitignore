@@ -1,0 +1,17 @@
+# 游戏本体、原始备份、开发缓存和安装目录记录不进入仓库。
+Kitten Space Agency/
+汉化备份/
+.ksa-zh-backup/
+.install-path.txt
+logs/
+tests/fixtures/
+__pycache__/
+*.pyc
+*.exe
+*.pdb
+*.ttf
+*.glb
+*.ktx2
+*.dll
+!payload/KsaChinese.dll
+*.zip

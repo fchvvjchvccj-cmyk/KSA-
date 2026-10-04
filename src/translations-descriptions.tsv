@@ -1,0 +1,141 @@
+A plain cylindrical bore with thrust that builds as the port opens up.|普通圆柱形内孔，随着燃烧通道扩大，推力逐渐增加。
+A star with points that offset the opening bore for near-constant thrust.|星形内孔，星尖燃尽产生的变化抵消通道扩大的影响，使推力近乎恒定。
+Deep spokes give a large initial burning surface that collapses as they burn out.|深辐条提供较大的初始燃烧面积，辐条燃尽后燃烧面积迅速减小。
+Curved slots deliver a hard kick until their fins burn through, leaving a large low-thrust port.|弯曲槽道在薄片燃穿前提供强劲的初始推力，之后留下较大的通道，推力降低。
+Short slots burn out early, then the thick remaining propellant builds thrust back up.|短槽较早燃尽，随后剩余的厚层推进剂使推力再次上升。
+A dense propellant combination with modest performance; excellent for keeping the size of larger booster stages reasonable.|密度高、性能适中的推进剂组合，适合控制大型助推级的体积。
+The pinnacle of chemical propellant performance, but requires very large propellant tanks; excellent for upper stages.|性能最高的化学推进剂组合，但需要非常大的推进剂贮箱，适合上面级。
+Balances good performance with reasonable density, but both propellants are cryogenic.|兼顾较好的性能与适中的密度，但两种推进剂均需低温储存。
+Low-performance but simple and cool-burning.|性能较低，但使用简单，燃烧温度也较低。
+Low-performance, but is the only storable, benign bipropellant mixure.|性能较低，但它是唯一可长期储存且危害较小的双组元推进剂组合。
+Storable hypergolic mixture favored for spacecraft engines and RCS.|可长期储存的自燃推进剂组合，常用于航天器发动机和反作用控制系统（RCS）。
+Storable monopropellant that provides a benign alternative to hydrazine.|可长期储存的单组元推进剂，是危害较小的肼替代品。
+The standard (but highly toxic) storable monopropellant for simple, reliable RCS.|标准的可储存单组元推进剂，适用于简单可靠的反作用控制系统（RCS），但毒性很强。
+The highest-performance reaction mass by far, thanks to its very low molecular weight.|由于分子量极低，其推进工质性能远高于其他选择。
+Hydrogen taken far past dissociation into a fully ionised plasma, where each atom carries a free electron and the mean particle mass halves. Only a confined fusion core reaches these temperatures.|氢在解离后进一步完全电离，形成由自由电子和离子组成的等离子体，平均粒子质量降至原子状态的一半。只有受约束的聚变核心才能达到这种温度。
+Dense and benign reaction mass, but low performance due to its very high molecular weight.|密度高、危害较小的推进工质，但分子量很高，因此性能较低。
+A denser reaction mass than hydrogen, trading performance for storability.|比氢密度更高的推进工质，以牺牲性能换取更容易储存。
+Storable and dense reaction mass with moderate performance.|可长期储存、密度高且性能适中的推进工质。
+A very poor-performance reaction mass, but extremely abundant.|性能很低的推进工质，但资源极其丰富。
+Inert and dense reaction mass; simple but low-performance.|惰性且密度高的推进工质，使用简单，但性能较低。
+High-thrust storable solid propellant; the natural choice for large solid rocket motors.|可长期储存的高推力固体推进剂，适合大型固体火箭发动机。
+Lower-performance solid propellant than APCP, but easier to manufacture; burns consistently and cleanly.|性能低于高氯酸铵复合推进剂（APCP），但更容易制造，燃烧稳定且洁净。
+An inert monatomic gas; its light weight and total non-reactivity make it the standard tank pressurant.|惰性单原子气体，质量轻且几乎不参与反应，是标准的贮箱增压气体。
+The lightest fuel, giving the highest exhaust velocity, but its deep cryogenic storage and low density are costly.|最轻的燃料，可提供最高的排气速度，但深低温储存和低密度会带来较高成本。
+Hydrogen made of antiparticles. It annihilates with ordinary matter, turning all of its mass into energy, so a few tonnes drive a starship. Only a magnetic trap tank can hold it.|由反粒子组成的氢，与普通物质湮灭时将全部质量转化为能量，几吨即可驱动星际飞船。只能使用磁阱贮箱储存。
+A cheap, inert gas for pressurization and cold-gas thrusters where helium's low mass isn't worth the cost.|廉价的惰性气体，适用于增压和冷气推进器，可在氦的轻质量优势不足以抵消成本时使用。
+The standard oxidizer: high-performance and non-toxic, though it must be kept cryogenic.|标准氧化剂，性能高且无毒，但必须低温储存。
+Vital for life support, abundantly available, may be used as reaction mass in a pinch.|生命保障所必需，资源丰富，必要时也可用作推进工质。
+A dense, cheap noble gas for cold-gas or electric thrusters where storage density beats efficiency.|密度高、价格低的稀有气体，适用于储存密度比效率更重要的冷气或电推进器。
+A cheaper, denser alternative to xenon for ion thrusters, trading some efficiency for cost.|离子推进器中氙的替代品，价格更低、密度更高，以降低部分效率换取成本优势。
+The premier ion-thruster propellant - dense and easily ionized - but rare and expensive.|优良的离子推进剂，密度高且易于电离，但稀有而昂贵。
+A flammable combustion by-product; rarely chosen deliberately, but a usable in-situ fuel.|可燃的燃烧副产物，很少被主动选作燃料，但可作为就地获取的燃料使用。
+Dense, inert, and easily gathered in-situ, making it a convenient if low-performance reaction mass.|密度高、性质稳定且容易就地获取，是方便但性能较低的推进工质。
+A dense, clean-burning cryogen that resists coking and can be made in-situ.|密度高、燃烧洁净且不易结焦的低温燃料，可以就地生产。
+Storable and hydrogen-rich, a compromise reaction mass when cryogenic hydrogen is impractical.|可长期储存且富含氢，当低温氢难以使用时，是一种折中的推进工质。
+A dense, cheap, room-temperature fuel that keeps stages compact, at the cost modest performance.|密度高、廉价且可在常温下储存的燃料，可缩小火箭级体积，但性能适中。
+Storable and usable as a catalytic monopropellant, though highly toxic.|可长期储存，并可通过催化分解用作单组元推进剂，但毒性很强。
+A storable (but highly toxic) hypergolic fuel that ignites on contact with its oxidizer, favored for reliable spacecraft engines and RCS.|可长期储存但毒性很强的自燃燃料，与氧化剂接触即点燃，常用于需要高可靠性的航天器发动机和反作用控制系统（RCS）。
+The standard storable oxidizer, igniting hypergolically with hydrazine fuels; toxic and corrosive.|标准的可储存氧化剂，与肼类燃料接触即自燃，具有毒性和腐蚀性。
+A cheap, easily handled fuel that burns cool enough to spare chamber walls, at the cost of modest performance.|廉价且易于处理的燃料，燃烧温度较低，可减轻燃烧室壁的热负担，但性能适中。
+Extremely concentrated hydrogen peroxide; a storable oxidizer and monopropellant that is less toxic than hydrazine.|极高浓度的过氧化氢，可作为可储存氧化剂和单组元推进剂，毒性低于肼。
+Coarse-grained felsic intrusive rock; the most common continental basement rock.|粗粒长英质侵入岩，是最常见的大陆基底岩石。
+Coarse-grained mafic intrusive rock; the plutonic equivalent of basalt.|粗粒镁铁质侵入岩，相当于玄武岩的深成岩类型。
+Fine-grained mafic volcanic rock; the dominant surface rock of ocean floors, Mars and the lunar maria.|细粒镁铁质火山岩，是海底、火星和月海表面的主要岩石。
+Felsic volcanic glass.|长英质火山玻璃。
+Highly vesicular felsic volcanic rock; porous enough to float on water.|孔隙丰富的长英质火山岩，密度低到可以浮在水面上。
+Vesicular mafic volcanic rock, darker and denser than pumice.|多孔镁铁质火山岩，颜色比浮石深，密度也更高。
+Ultramafic rock; the dominant constituent of the upper mantle.|超镁铁质岩石，是上地幔的主要组成物。
+Plagioclase-rich intrusive rock; the primary constituent of the lunar highlands.|富含斜长石的侵入岩，是月球高地的主要组成物。
+Carbonate sedimentary rock, predominantly calcite.|以方解石为主的碳酸盐沉积岩。
+Soft, highly porous fine-grained limestone.|质地较软、孔隙丰富的细粒石灰岩。
+Carbonate sedimentary rock, predominantly dolomite.|以白云石为主的碳酸盐沉积岩。
+Dense microcrystalline silica; includes flint.|致密的微晶二氧化硅岩石，包括燧石。
+Rock salt, crystalline sodium chloride.|岩盐，由氯化钠晶体组成。
+Hydrated calcium sulfate evaporite; also forms the Martian north polar dune fields.|含水硫酸钙蒸发岩，也是火星北极沙丘区的组成物。
+Ordinary hexagonal water ice.|普通六方晶系水冰。
+Loose impact-comminuted lunar soil.|由撞击破碎形成的松散月壤。
+Loose basaltic Martian soil.|松散的玄武质火星土壤。
+The most common stony meteorite class.|最常见的石陨石类型。
+Primitive volatile-rich stony meteorite; porous and comparatively weak.|原始且富含挥发物的石陨石，孔隙较多，强度相对较低。
+Nickel-iron meteorite from a differentiated parent body core.|来自已分异母天体核心的镍铁陨石。
+Culm wall material; a grass rather than a true wood.|竹秆壁材料，属于禾本科植物组织，而非真正的木材。
+Antihydrogen annihilating with hydrogen, heating reaction mass that is either carried or scooped from interstellar space.|反氢与氢湮灭，产生的能量加热随船携带或从星际空间收集的推进工质。
+Then click another part with a fuel port to run a line to it.|再点击另一个带燃料接口的部件，将管线连接过去。
+Click empty space to cancel.|点击空白处取消。
+You are currently in a game, are you sure you want to load '|当前正在游玩，确定要加载存档“
+Circularize|圆化轨道
+Right-click orbits to create more than one chained burn.|右键点击轨道可创建多个相互衔接的机动。
+Right-click orbits to create departure burns.|右键点击轨道可创建离轨机动。
+The oxidizer-to-fuel mass ratio fed to the combustion chamber.\nTypical value for this mixture:|送入燃烧室的氧化剂与燃料质量比。\n此推进剂组合的典型值：
+Left-click to add a point\nDrag points to move them\nDouble-right-click a point to delete it\nMiddle-drag to pan, right-drag to zoom\nDouble-middle-click to reset pan/zoom|左键点击添加控制点\n拖动控制点移动位置\n右键双击控制点删除\n按住中键拖动平移，按住右键拖动缩放\n中键双击重置平移和缩放
+This can take 10+ minutes on 5000/6000 series AMD GPUs on Windows.|在 Windows 系统上的 AMD 5000/6000 系列显卡中，这可能需要 10 分钟以上。
+items selected — use viewport handles to move/resize.|个项目已选中——使用视图中的操纵柄移动或调整大小。
+(0 = treading, 1 = swim; the played weight lerps toward this)|(0 表示踩水，1 表示游泳；动画混合权重会逐渐趋近此值)
+m, so dents on coarse meshes will be shallower.|m，因此较粗网格上的凹陷会更浅。
+ms x area = impulse that part took|毫秒 × 面积 = 部件承受的冲量
+parts, no contact data yet - ratings only|个部件，尚无接触数据，仅显示耐受值
+hits reported,|次撞击已上报，
+dropped (budget spent)|次被丢弃（已达到处理预算）
+kg, not armed - has never exceeded|kg，尚未启用——从未超过
+kg, nothing measured yet|kg，尚无测量数据
+{0} segments, {1} substeps, {2} FC runs|{0} 段，{1} 个子步，飞行计算机运行 {2} 次
+{0} (free cap {1}, long step {2}, spin arc {3}, buoyancy {4}, chute {5})|{0}（自由运动上限 {1}，长步 {2}，旋转弧长 {3}，浮力 {4}，降落伞 {5}）
+{0:G6} s at {1:G4} deg/s|{0:G6} s，角速度 {1:G4} °/s
+solid grain, unburnable|固体药柱，无法燃烧
+m/s, burn time|m/s，燃烧时间
+In Tangent:|入切线：
+Out Tangent:|出切线：
+] Unnamed Modifier|］未命名修改器
+debris objects in this system?|个此恒星系中的残骸对象？
+- Set Orbit|— 设置轨道
+- Flight Computer|— 飞行计算机
+GRAVITATION|引力
+(grain cross-section:|（药柱横截面：
+segments in stack|段药柱堆叠
+) is below the propellant's minimum (|）低于推进剂的最低值（
+s\nChamber Pressure:|s\n燃烧室压力：
+Reported usage and budget: ~|报告的用量与预算：约
+Cloth Mode:|伞面模式：
+procedural (|程序生成（
+dentable parts,|个可变形部件，
+Hits reported|已上报撞击次数
+(component)|（组件）
+components)|个组件）
+° Occluded:|° 遮挡：
+(in contact)|（接触中）
+expected  (|预期（
+N s measured vs|N s 实测值，对比
+N s · weight|N s · 重量
+retained frames|个保留帧
+frames in the averaging window|个统计窗口内的帧
+frames over|帧，覆盖
+allocations|次分配
+unresolved,|个未解析项，
+frames dropped, peak|帧丢弃，峰值
+zones dropped)|个区段丢弃）
+, budget ext unavailable|，预算扩展不可用
+MB allocated,|MB 已分配，
+MB reserved, OS usage|MB 已预留，系统用量
+MB  reserved|MB 已预留
+MB  OS usage|MB 系统用量
+MB / budget|MB / 预算
+MB reserved,|MB 已预留，
+— unavailable|— 不可用
+MB staging in flight|MB 正在传输的暂存数据
+dedicated transfer (ownership transfer)|专用传输队列（所有权转移）
+MB allocated (peak ~|MB 已分配（峰值约
+created (churn = allocations over time)|个已创建（周转量 = 一段时间内的分配次数）
+/s) · Evictions:|/s）· 驱逐次数：
+batches/s · stall|批/s · 停滞
+coarse (mip|粗略（mip
+[degraded: VRAM budget]|［已降低质量：显存预算限制］
+[streaming]|［流式加载中］
+: target mip|：目标 mip
+Invalid rate bug location|无效的角速度标记位置
+X = Angle between camera and vehicle forward (degrees)|X = 摄像机与载具前向之间的夹角（°）
+Y = Contribution|Y = 贡献值
+'Dropped' means a hit arrived with no slope budget left where it landed.|“丢弃”表示撞击发生时，命中位置已没有剩余的坡度预算。
+(reapply) knobs only take effect once Reapply Cloth (or a redeploy) rebuilds the bepu sim with these values.|标有“重新应用”的参数，仅在重新应用伞面或重新展开降落伞、以这些数值重建 Bepu 模拟后生效。
+Not shown - unreachable from main thread without new worker plumbing:|未显示——需要新增工作线程接口，主线程才能访问：
+Multiple commands can be called in a single statement by separating them with a ';' semicolon|一条语句可调用多条命令，使用英文分号“;”分隔。

@@ -1,0 +1,346 @@
+A dent at the current depth and radius settings, at a random point on a random dentable part's bounds, pushed toward its centre. Bypasses the contact path, so it lands on parts that have no collider too.|按当前深度和半径，在随机可变形部件的边界上随机创建朝向中心的凹陷。此操作绕过接触流程，因此没有碰撞体的部件也会产生凹陷。
+accumulated contact impulse, up/facing error angle, current anim clip|累计接触冲量、直立/朝向误差角、当前动画片段
+Adaptive Inner Glow Scalar|自适应内层光晕系数
+Aggregated over|汇总范围
+All Flare Color Scalar|全部光晕颜色系数
+Area m2 @peak|峰值面积（m²）
+Armed: chord error capped at|已启用：弦误差上限
+Attitude error (deg) inside which the upright servo stays idle. Needed so a settled kitten can fall asleep instead of micro-correcting forever.|直立伺服保持空闲的姿态误差范围（°）。让稳定后的猫咪能够休眠，而不是不断进行细微修正。
+Bepu contact friction for the kitten's ground pairs while the traction servo is active. Kept low so the servo owns grip instead of fighting the contact solver.|牵引伺服活动时猫咪与地面接触对的 Bepu 摩擦系数。较低的值可让伺服控制抓地力，避免与接触求解器相互干扰。
+Bepu's Coulomb friction coefficient (0 = frictionless, unbounded above).|Bepu 库仑摩擦系数（0 表示无摩擦，上限不限）。
+Body tilt from gravity-up beyond which a grounded kitten counts as knocked over and drops into Tumbling.|相对于重力向上的身体倾角，超过后，地面上的猫咪视为被撞倒并进入翻滚状态。
+Body tilt from gravity-up the kitten must be within before any mode may hand over to Grounded (hysteresis pair with Tip Over Tilt).|进入落地状态前身体相对于重力向上的允许倾角，与倾倒阈值构成滞回区间。
+Body:|天体：
+Buoyancy/weight ratio at or above which a contact-free kitten enters Swimming. Same rule for ocean and dense gas.|无接触猫咪进入游泳状态的浮力/重量比例下限。海洋与高密度气体使用相同规则。
+Buoyancy/weight ratio at or below which Swimming exits to Airborne. Keep below the enter ratio - the gap is the hysteresis.|游泳状态退出为离地状态的浮力/重量比例上限。应低于进入游泳的比例，两者差值形成滞回。
+Camera Reference|视角参考系
+Camera-space depth for slice|切片的摄像机空间深度
+Canopy node collision sphere radius, as a FRACTION OF CANOPY DIAMETER. Must stay under pi*ReefRatio/(2*Spokes) (~0.039 at ReefRatio 0.4) or the reefed hem's own nodes overlap and hold the canopy open. Baked into the bepu sim at build time - only takes effect on Reapply Cloth / redeploy, not live.|伞面节点碰撞球半径，以伞面直径的比例表示。必须小于 pi*ReefRatio/(2*Spokes)（收束比例为 0.4 时约为 0.039），否则伞缘节点重叠会撑开伞面。参数在构建 Bepu 模拟时固化，仅在重新应用伞面或重新展开后生效。
+Cap (m/s) on the velocity spent closing position error to the anchor. Governs how fast a fresh grab pulls in.|修正相对锚点位置误差的速度上限（m/s），决定刚抓住扶手时的拉近速度。
+Cap (rad/s) on the angular rate spent closing orientation error to the anchor. High values can collapse the adaptive physics timestep.|修正相对锚点姿态误差的角速度上限（rad/s）。过高的值会使自适应物理步长过小。
+Captures waiting on the driver, and any abandoned because their query pool was reused first.|等待驱动完成的捕获，以及因查询池提前复用而放弃的捕获。
+Cascade|级联
+Caught a spike:|已捕获性能尖峰：
+Cd Full|完全展开阻力系数
+Ceiling repeated hits on one spot saturate toward, as a fraction of the scale radius. Above the single-hit depth, so only merging reaches it.|同一位置反复撞击所趋近的深度上限，以尺度半径比例表示。高于单次撞击深度，仅合并撞击才能达到。
+Chaser and target have different parent bodies.|追踪载具与目标环绕不同主天体。
+Child Emitter|子发射器
+Climb speed (m/s) the ladder clip was authored at; playback rate = Ladder Climb Speed / this.|攀爬动画制作时使用的速度（m/s）；播放速率等于梯子攀爬速度除以此值。
+Closest|最近
+Closest:|最近：
+Clutter collider debug draw: nested compound at depth|杂物碰撞体调试绘制：嵌套组合深度
+Collision sphere size for clustered neighbor canopies as a fraction of their radius. Under 1 lets hems press together and merge; 1 keeps whole canopies apart and churns contacts.|相邻聚类伞面的碰撞球半径比例。小于 1 时伞缘可相互靠近并合并；为 1 时整个伞面保持分离，会频繁产生接触。
+Color0|颜色 0
+Color1|颜色 1
+Color2|颜色 2
+Color3|颜色 3
+Contact-free time (s) after which Tumbling hands over to Airborne.|翻滚状态转为离地状态前所需的无接触时间（s）。
+Copied the auto-generated curve into the manual curve.|已将自动生成曲线复制为手动曲线。
+Copied the preset specular curve into the manual curve.|已将预设高光曲线复制为手动曲线。
+Count:|数量：
+Create Burn [|创建机动［
+Cross-fade time (s) when switching locomotion clips.|切换移动动画片段时的交叉淡入淡出时间（s）。
+Damping on the attractor spring. Default keeps the critically-damped 2*sqrt(gain) ratio but is tunable independently.|吸引场弹簧阻尼。默认保持临界阻尼 2*sqrt(gain) 比例，也可独立调整。
+Damping rate (1/s) on vertical velocity while swimming; settles surface bobbing. 0 = free bob.|游泳时垂直速度的阻尼率（1/s），用于抑制水面起伏。0 表示自由起伏。
+Degrees to pitch the eye look-at up in the ladder pose, compensating the clip's head-back tilt.|攀爬姿态下视线上仰的角度，用于补偿动画中的头部后仰。
+Dent depth, as a fraction of the scale radius, when a step's pressure equals the crash tolerance. Scales linearly below that.|时间步压力等于碰撞耐受值时的凹陷深度，以尺度半径比例表示。低于此压力时按线性比例缩放。
+Depth Slice|深度切片
+device local: used|设备本地内存：已用
+Diameter/Line Length changes only bake in on the next acquire (rest lengths are baked at acquire time) - use this to force one.|直径和绳长更改仅在下次创建时固化（静止长度在创建时确定）；使用此操作可强制重新创建。
+Disabled while paused: a pinned frame always shows its own value.|暂停时禁用：固定的帧始终显示其自身数值。
+Distance (m) the physics body is held off the rail. Keep large enough that a releasing kitten is clear of the host's colliders.|物理身体偏离扶手的距离（m）。应足够大，保证松手后猫咪不与载具碰撞体重叠。
+Distance (m) the rendered kitten appears off the rail; the mesh is shifted in from the physics standoff to this. Match the climb clip's paw reach.|猫咪可见模型偏离扶手的距离（m）。模型从物理偏移位置移至此距离，应与攀爬动画的爪子伸展范围匹配。
+Draws the terrain patch the cloth actually collides against, in green. If it doesn't sit on the visible ground, the Ccf -> chute-local snapshot is off.|以绿色绘制伞面实际碰撞的地形区域。若与可见地面不重合，说明 Ccf 到降落伞局部坐标的快照存在偏差。
+Duration (s) of the ease when handing off between ladder parts. Only applies across handoffs - normal climbing tracks the rail exactly. 0 = instant snap.|切换梯子部件时的平滑过渡时间（s）。仅作用于切换过程，正常攀爬会精确跟随扶手。0 表示立即吸附。
+During the landing-assist window the upright servo may draw on the real landing impulse, capped at this multiple of its normal gravity-scaled clamp. Counters the momentum-scaled touchdown pitch kick that face-plants running jumps at low g.|着陆辅助期间，直立伺服可借助真实着陆冲量，上限为正常重力缩放限制的此倍率。用于抵消低重力跑跳落地时导致面朝下摔倒的俯仰冲击。
+Dynamic pressure below which the canopy can't sustain fill; a landed/becalmed chute deflates toward this equilibrium.|低于此动压时伞面无法维持充气；着地或无风的降落伞会趋向此平衡状态。
+End:|结束：
+Eroded tile mask (consumed by culling):|侵蚀瓦片掩码（供剔除使用）：
+Every dent on every vehicle in view, from the same vehicle-space dents the shader reads. Cyan ring = footprint radius on the surface, blue closes the sphere, orange spike = push direction with the dent's depth as its length. Stays on with this window closed, but hides with the rest of the UI.|显示视野内全部载具的凹陷，使用与着色器相同的载具空间数据。青环为表面影响半径，蓝线闭合球体，橙线表示推入方向，长度为凹陷深度。关闭此窗口后仍显示，隐藏界面时一并隐藏。
+Every frame as stacked bands, one per top-level zone - shows which zone is growing or spiking over time.|将每帧显示为堆叠色带，每个顶层区段一条，用于观察区段耗时增长或尖峰。
+Exact-exponential relaxation of node velocity toward the local air velocity. The primary physical damping - cloth in air is overwhelmingly air-damped. Ramps to this full rate by Reference Q For Drag and stays there above it; 0 at vacuum, independent of Aero Gain.|以精确指数衰减使节点速度趋近局部空气速度，是伞面的主要物理阻尼。达到阻尼参考动压时增至此完整阻尼率，更高动压下保持不变；真空中为 0，与气动增益无关。
+Exponential time constant (s) for closing the gap to the target ground velocity. Lower = snappier acceleration and stops.|趋近目标地面速度的指数时间常数（s）。较小值使加速和停止更迅速。
+Final scan sums|最终扫描求和
+Fire A|触发 A
+Fire B|触发 B
+Fire Both (30m apart)|同时触发两个（间距 30 m）
+first column|第一列
+First z thickness|首段 Z 厚度
+Floor on pressure accel so a fully-filled canopy stays inflated even at low descent q.|压力加速度下限，使完全充气的伞面在下降动压较低时仍保持展开。
+Floor on the canopy attractor scale at low Fill, so the lattice never collapses to a point.|低充气程度时的伞面吸引场缩放下限，避免网格塌缩为一点。
+Focused:|聚焦对象：
+Footprint radius is this many times the contact patch's equivalent radius, sqrt(area / pi), before clamping.|限制前的凹陷影响半径为接触区域等效半径 sqrt(area / pi) 的此倍率。
+Forward:|前向：
+Fraction of each cascade over which to fade cascades between|每级联用于相邻级联淡入淡出的比例
+Fraction of the part's crash tolerance a contact step must reach to leave a dent. Below it, pad settling and gentle docking leave no mark.|产生凹陷所需接触压力与部件碰撞耐受值的比例。低于此值时，发射台上的稳定接触和轻柔对接不会留下痕迹。
+Frame time budget; frames that run past it are called out in the plots.|帧时间预算，超过预算的帧会在图表中标出。
+Frame time distribution; two peaks mean stutter an average would hide.|帧时间分布；双峰意味着存在平均值会掩盖的卡顿。
+Friction when in Tumble state. Kept high enough that tumbles bleed off and settle.|翻滚状态的摩擦系数。足够高的值使翻滚耗散并最终稳定。
+Friction-style cap on traction: max grip acceleration = coeff x local gravity. Too low and the kitten slides on slopes.|牵引的摩擦型限制：最大抓地加速度等于系数乘以当地重力。过低时猫咪会在斜坡上滑动。
+Gerstner Waves|Gerstner 波
+Ghost Orb Multiplier|重影光斑倍率
+Glancing contacts are rotated toward the surface's inward normal until their inward component reaches this. A sideways push shears the skin instead of denting it.|将擦碰方向转向表面内法线，直到向内分量达到此值。纯侧向推力会剪切表面，而不是形成凹陷。
+Glint Fade-In Size (px)|反光淡入尺寸（px）
+Glint Shininess|反光光泽度
+Global Blur Settings|全局模糊设置
+Global Glint Settings|全局反光设置
+Grace (s) after losing ground contact during which the kitten still counts as grounded.|失去地面接触后仍视为落地的宽限时间（s）。
+Graphics setting 'Impact Dents' is off: parts render undented|图形设置中的“撞击凹陷”已关闭，部件显示为无凹陷状态
+Gravity (m/s^2) at or above which the moonwalk blend weight is zero.|月面步态混合权重降为零的重力阈值（m/s²）。
+Gravity (m/s^2) at or below which the ground gait is pure moonwalk.|地面步态完全使用月面步态的重力阈值（m/s²）。
+Ground speed (m/s) below which the idle clip plays instead of walk/run.|低于此地面速度（m/s）时播放静止动画，而非步行或跑步动画。
+Ground speed (m/s) the run clip was authored at; playback rate scales by actual speed / nominal.|跑步动画制作时使用的地面速度（m/s），播放速率按实际速度与标称速度的比值缩放。
+Ground speed (m/s) the walk clip was authored at; playback rate scales by actual speed / nominal.|步行动画制作时使用的地面速度（m/s），播放速率按实际速度与标称速度的比值缩放。
+Group frames into windows of this length and plot the mean of each. Off plots every frame.|按此长度将帧分组，并绘制各组平均值。关闭时绘制每一帧。
+Half-life (s) for the attitude servo rotating the body onto the swim tilt - the swim-only replacement for Upright Half Life, so grounded righting is unaffected. Lower = snaps forward faster. If it stops responding, the rate clamp is binding: raise Swim Angular Budget Factor.|姿态伺服使身体达到游泳倾角的半衰期（s），仅用于游泳，不影响地面恢复直立。较小值使身体更快前倾；若无响应，说明角速度受限，应提高游泳角运动预算系数。
+Half-life (s) of the facing (yaw) servo. Lower = turns into the movement direction faster.|朝向（偏航）伺服的半衰期（s）。较小值使身体更快转向移动方向。
+Half-life (s) of the filtered ground normal the upright servo stands square to. Smooths pose over bumpy terrain.|直立伺服所用平滑地面法线的半衰期（s），使崎岖地形上的姿态更平稳。
+Half-life (s) of the upright attitude servo. Lower = rights itself faster.|直立姿态伺服的半衰期（s）。较小值使身体更快恢复直立。
+Half-life (s) smoothing the tilt target as speed and direction change.|速度与方向变化时平滑目标倾角的半衰期（s）。
+Half-life (s) the treading/swim blend weight lerps toward its speed-derived target, so the pair fades instead of snapping. 0.01 = effectively instant.|踩水/游泳动画混合权重趋近速度目标的半衰期（s），用于平滑过渡。0.01 基本等同于立即切换。
+Horizontal Spoke Multiplier|水平径向支撑倍率
+How a single frame was spent, nested by call depth.|按调用深度嵌套显示单帧耗时。
+How big the triangles are: min(R, h)^2 / 2 of the coarsest triangle a dent lands on. The slope bound keeps the smooth field injective, but the mesh is flat triangles; this and 'min gap' bound how far a triangle's chord may stray from it. Either at 0 turns the guard off.|凹陷所处最粗三角形的尺寸度量：min(R, h)^2 / 2。坡度上限保证平滑变形场不相交；此值与最小间隙共同限制平面三角形相对平滑表面的偏差。任一值为 0 时关闭保护。
+How long (s) the kitten must stay airborne after touchdown before the landing recovery gives way to the flail again. Bounces shorter than this are ignored so the recovery plays once, continuously, instead of restarting.|着地后再次离地多久（s），才从着地恢复动画返回挥舞动画。较短弹跳被忽略，使恢复动画持续播放而不反复重启。
+How strongly grab selection prefers nodes in front of the kitten. 0 = pure nearest; higher = a node ahead beats a nearer one behind.|抓握选择偏向猫咪前方节点的程度。0 表示只选最近节点；较高值使前方节点优先于更近的后方节点。
+How thin the walls are: the smallest distance from a skin to whatever sits behind it. Either this or 'chord factor' at 0 turns the guard off.|壁厚度量：表面到后方物体的最小距离。此值或弦误差系数为 0 时关闭保护。
+Image pool:|图像池：
+Impact -> dent|撞击转凹陷
+impact dents enabled|已启用撞击凹陷
+Initial cloth velocity along the mount's outward normal when the chute fires, throwing the packed bundle clear of the vehicle.|降落伞弹射时，收纳伞面沿安装点外法线的初始速度，使伞包离开载具。
+Input-free time (s) before a kitten on an on-rails host parks: body sleeps on rails, pose frozen relative to the host.|处于轨道解析模拟载具上的猫咪进入驻留状态前所需的无输入时间（s）。身体随轨道休眠，姿态相对载具固定。
+Input-free, settled time (s) before an idle swimmer parks: constrained physics drops to the cheap analytic ocean path. Any input un-parks instantly.|静止游泳者进入驻留状态前所需的无输入且稳定时间（s）。约束物理改用低开销的解析海洋路径，任何输入都会立即恢复。
+Is using Static Volume:|使用静态体积：
+Kawase Specific Settings|Kawase 专用设置
+Ladder Tier:|梯子级别：
+Largest footprint, as a fraction of the scale radius. A footprint this size routinely reaches the neighbouring part.|最大凹陷影响范围，以尺度半径比例表示。此尺寸通常会影响相邻部件。
+Largest group|最大分组
+Last z thickness|末段 Z 厚度
+Length in meters of the riser line.|吊带长度，单位为米。
+Lens Orb Flags|镜头光斑标志
+Lets canopy nodes collide with each other, stopping the cloth folding through itself. Costs extra broadphase pairs.|允许伞面节点相互碰撞，避免伞布自穿透，但会增加碰撞粗筛接触对数量。
+Lipschitz bound on the displacement field. Below 1 the deformation is injective: nothing can pass through anything, however deep the dents.|位移场的 Lipschitz 上限。低于 1 时变形保持单射，无论凹陷多深都不会发生自穿透。
+Lit pixels|受光像素
+Live multiplier on every stored dent's depth. Above the slope budget it is cancelled by the safety scale - widen dents to go deeper instead.|实时调整已存储凹陷深度的倍率。超过坡度预算后会被安全缩放抵消；要加深凹陷，请增大其宽度。
+LOD selected segments|按细节层级选定的分段
+loop {0:F1} ms, integration {1:F1} ms|循环 {0:F1} ms，积分 {1:F1} ms
+Lower clamp on the walk/run playback rate scaling.|步行/跑步动画播放速率缩放的下限。
+Mapping:|映射：
+Maps blocked by budget:|因预算受限的贴图：
+Master switch for gameplay dents. The graphics setting 'Impact Dents' must also be on for parts to render dented.|游戏中撞击凹陷的总开关。还需启用图形设置中的“撞击凹陷”，才会显示部件凹陷。
+Match Target Plane|匹配目标轨道平面
+Max (KB)|最大（KB）
+Max (MB)|最大（MB）
+Max (ms)|最大（ms）
+Max distance (m) to a grab node for the [F] Grab prompt, and for handoffs past a rail's ends.|显示 [F] 抓握提示及越过扶手末端切换节点时，允许的最大节点距离（m）。
+Max Dt In|最大输入步长
+Max Glint|最大反光
+Max slew rate (rad/s) of the MMU auto-attitude toward the camera orientation in View mode.|视角模式下载人机动装置自动对齐摄像机朝向的最大角速度（rad/s）。
+Max swim thrust acceleration (m/s^2) toward the commanded direction.|朝指令方向的最大游泳推进加速度（m/s²）。
+Max voxel refs|最大体素引用数
+Max:|最大：
+MaxHeight:|最大高度：
+Maximum distance from the camera to render shadows.|绘制阴影时允许的最大摄像机距离。
+Maximum fade error|最大淡出误差
+Mean (KB)|平均（KB）
+Mean (MB)|平均（MB）
+Mean lights / pixel|每像素平均灯光数
+Mean of|平均范围
+Middle z thickness|中段 Z 厚度
+Min (KB)|最小（KB）
+Min (MB)|最小（MB）
+Min Dt|最小步长
+Min maintenance junctions/frame|每帧最少维护连接点数
+Min Shadow Texel Radius|最小阴影纹素半径
+Min:|最小：
+MinHeight:|最小高度：
+Multiplies (line length + diameter) for the max distance any node may sit from the pin. Guards against runaway line stretch.|节点距固定点的最大距离等于（绳长 + 直径）乘以此值，用于防止绳索无限拉伸。
+Multiplies Tumble Traction Pair Friction as the kitten rolls nose-down, so a face-plant digs in instead of skating. Full value at muzzle-into-terrain, fading to 1x at nose-level and above. 1 = no boost.|猫咪向前翻倒时，对翻滚接触摩擦乘以此值，防止面朝下落地时滑行。面部朝地时作用最大，机头水平或朝上时降为 1 倍。1 表示不增强。
+No BVH available - your device is using raytracing instead.|没有可用包围体层次，设备正在使用光线追踪。
+No BVH available for ground clutter generation.|地表杂物生成没有可用包围体层次。
+No lit pixels.|没有受光像素。
+Nominal speed (m/s) the run-gait nominal lerps toward as the moonwalk weight rises.|月面步态权重增加时，跑步标称速度趋近的值（m/s）。
+Nominal speed (m/s) the walk-gait nominal lerps toward as the moonwalk weight rises.|月面步态权重增加时，步行标称速度趋近的值（m/s）。
+Nothing selected. Click a canvas, component or rect.|未选择任何内容。请点击画布、组件或矩形。
+Now kPa|当前压力（kPa）
+Nudges a seat occupant relative to its IVASeat, in seat axes: X forward (the way the kitten faces), Y right, Z up. Metres, and not scaled by the seated model scale, so it moves 1:1. The crew portrait face-cam tracks it.|以座位坐标轴调整乘员相对舱内座位的位置：X 向前（猫咪面朝方向）、Y 向右、Z 向上。单位为米，不随就座模型缩放，按 1:1 移动。成员肖像摄像机会跟随此偏移。
+Object count too high for real-time editing!|对象数量过多，无法实时编辑！
+Occluded:|被遮蔽：
+off (per frame)|关闭（逐帧）
+Off: slope budget only. Thin, coarsely-meshed walls may show chords crossing.|关闭：仅使用坡度预算。较薄且网格粗糙的壳体可能发生三角形穿越。
+One frame's exact zone timings as an expandable call tree.|以可展开调用树显示单帧各区段的精确耗时。
+Openings:|开口数量：
+Orbs and Flare|光斑与光晕
+Padding to extend the orthographic projection (min/max z range)|扩展正交投影的留量（最小/最大 Z 范围）
+Parked (analytic ocean path)|已驻留（解析海洋路径）
+Parked (on rails, asleep)|已驻留（轨道解析模拟，休眠）
+Part radius influence|部件半径影响系数
+Pause and pin a frame automatically when it runs past the spike threshold.|帧耗时超过尖峰阈值时自动暂停并固定该帧。
+Peak kPa|峰值压力（kPa）
+Peak lights / pixel|每像素峰值灯光数
+Per second of real time:|每秒实际时间：
+Per-zone aggregates over the retained frames; find what is consistently expensive.|汇总保留帧中各区段的耗时，用于查找持续开销较高的部分。
+Perceptual Cull (radians)|感知剔除阈值（弧度）
+Phases (|相态（
+Physical atmosphere height|物理大气高度
+Pin Distance Factor|固定点距离系数
+Playback rate multiplier for the tumble/flail clip, in Tumbling and in the post-jump airborne flail. 1 = authored speed. Unlike the walk/run/ladder entries above this is a flat rate, not a speed the clip was authored at.|翻滚和跳跃后离地挥舞动画的播放倍率。1 表示制作时的原速；与步行、跑步和攀爬参数不同，此处是直接播放倍率，而非标称移动速度。
+Playback-rate multiplier at full moonwalk weight; lerps from 1 as gravity falls. Below 1 = slower, floatier strides for the same ground speed.|月面步态权重为满时的播放倍率。随重力减小从 1 插值至此值。低于 1 时，同一地面速度下步伐更缓慢、更轻飘。
+Promotions:|升级数量：
+Property commit delta|属性提交变化量
+Rated kPa|额定压力（kPa）
+Rects:|矩形数量：
+Refinement indirect|细化间接调度
+Remove Flash|移除闪光
+Remove SoundEvent|移除声音事件
+Render Gaussian Global Bloom|绘制高斯全局泛光
+Render Gaussian Threshold Bloom|绘制高斯阈值泛光
+Render Kawase Global Bloom|绘制 Kawase 全局泛光
+Render Kawase Threshold Bloom|绘制 Kawase 阈值泛光
+Rendering method|渲染方式
+RenderResolution:|渲染分辨率：
+Reset Worst|重置最差值
+Resizes the cascade depth slices between 0 (uniform) and 1 (logarithmic)|调整级联深度切片分布，0 为均匀分布，1 为对数分布
+RK8 Steps|八阶龙格—库塔步数
+Rotation table|旋转表
+Sample Vessel Shadows|采样载具阴影
+Scale table|缩放表
+Scales canopy internal pressure accel with dynamic pressure (QLocal / ReferenceQ).|按动压比（QLocal / ReferenceQ）缩放伞面内部压力加速度。
+Scales the achieved body tilt into the eye look-cone pitch offset while swimming, so the gaze keeps finding the camera instead of clamping to the whites. 1 = cancel the tilt exactly, 0 = off, negative flips the direction.|游泳时按实际身体倾角调整视线俯仰，使目光持续朝向摄像机，避免眼睛转至极限。1 表示精确补偿倾角，0 为关闭，负值反转方向。
+Scales the aerodynamic drag accel applied to canopy-facing nodes.|缩放作用于迎风伞面节点的空气阻力加速度。
+Scales the per-step angular rate budget of the attitude servos. 0 disables them entirely (no righting, no facing).|缩放姿态伺服每步允许的角速度预算。0 会完全禁用伺服，不再恢复直立或调整朝向。
+Scales the swim attitude servo's authority relative to the gravity-scaled grounded cap. 0 disables swim righting/tilt.|调整游泳姿态伺服相对于按重力缩放的落地限制的控制力度。0 会禁用游泳直立和倾斜控制。
+Seconds after entering Grounded that the landing assist stays available.|进入落地状态后，着陆辅助仍然可用的秒数。
+Seconds of the jump extro (landing recovery) clip to play before handing back to the idle/walk clip. The authored clip is 1.46s but stops moving at 0.42s, so the tail is a static hold. 0 = play the clip in full.|切回静止/步行动画前，着地恢复动画的播放秒数。原动画长 1.46 s，但 0.42 s 后已停止运动，剩余部分只是静止保持。0 表示完整播放。
+Secs|秒
+Segment|分段
+segment end {0}, FC {1}, freefall event {2}, contact {3}|分段结束 {0}，飞行计算机 {1}，自由落体事件 {2}，接触 {3}
+Segments saved by merging|合并节省的分段数
+Selection lost (rect not found in component).|选择已失效（组件中未找到矩形）。
+Sep:|间距：
+Show Atmosphere Editor|显示大气编辑器
+Show Audio Debug|显示音频调试
+Show Biome Exporter|显示生物群系导出器
+Show Burn Debug|显示点火机动调试
+Show Cascaded Shadow Debug|显示级联阴影调试
+Show Clouds Editor|显示云层编辑器
+Show Delta-V Debug|显示 Δv 调试
+Show Device Host Shared Memory|显示设备与主机共享内存
+Show Distant Glint Editor|显示远处反光编辑器
+Show Engine Debug|显示发动机调试
+Show Engine Designer|显示发动机设计器
+Show Exhaust Debug|显示尾焰调试
+Show experimental particles|显示实验性粒子
+Show Explosion Editor|显示爆炸编辑器
+Show Flare Debug|显示光晕调试
+Show Flight Computer Debug|显示飞行计算机调试
+Show Light Debug|显示灯光调试
+Show Ocean Editor|显示海洋编辑器
+Show Only Shadow Casters|仅显示投射阴影的对象
+Show Overall Bloom Debug|显示整体泛光调试
+Show Part Contact Load|显示部件接触载荷
+Show Particle Emitter Editor|显示粒子发射器编辑器
+Show PBR Spheres|显示物理材质测试球
+Show Physics Debug|显示物理调试
+Show Planet Exporter|显示行星导出器
+Show Planet Shadow Debug|显示行星阴影调试
+Show Plume Debug|显示尾迹调试
+Show Point Lights|显示点光源
+Show Ray Path|显示光线路径
+Show Set Orbit Debug|显示轨道设置调试
+Show Spot Lights|显示聚光灯
+Show Terrain Debug|显示地形调试
+Show Texture Streaming|显示纹理流送
+Shutdown transient|关闭瞬态
+Sideways nudge on a grounded deflating canopy so it drapes beside the vessel instead of on top. 0 disables.|对着地后正在泄气的伞面施加侧向偏移，使其垂落于载具旁而非载具顶部。0 为关闭。
+Smallest footprint, as a fraction of the scale radius.|最小影响范围，以尺度半径的比例表示。
+SolarAngle:|太阳角度：
+solver|求解器
+Solver velocity iterations per substep; rounds down to an int at sim build time. Baked into the bepu sim at build time - only takes effect on Reapply Cloth / redeploy, not live.|求解器每子步长的速度迭代次数，构建时向下取整。此参数在构建 Bepu 模拟时固化，仅在重新应用伞面或重新展开后生效。
+Sort frame tree rows|对帧调用树行排序
+SoundEvent is just the id string for now.|声音事件目前仅使用 ID 字符串。
+Speed (m/s) a tumbling kitten must stay under, in ground contact, for the settle timer to run.|翻滚猫咪与地面接触时，速度必须低于此值（m/s），稳定计时器才会运行。
+Speed (m/s) the kitten moves along the rail while W/S is held.|按住 W/S 时猫咪沿扶手移动的速度（m/s）。
+Speed persistence|速度持续率
+Spike threshold, as a multiple of the rolling median frame time.|性能尖峰阈值，以滚动帧时间中位数的倍率表示。
+Spring damping ratio shared by the structural/shear/bend constraints. 1 = critically damped; raise this if a settled canopy hums instead of sleeping. Heavy damping (default 40) is intentional for canopy cloth - values below ~10 read as jelly.|结构、剪切和弯曲约束共用的弹簧阻尼比。1 为临界阻尼；若稳定伞面持续振动而不休眠，应提高此值。伞布有意使用较大阻尼（默认 40），低于约 10 会显得像果冻。
+Spring frequency for bend (skip-neighbor) constraints. Controls canopy stiffness against folding.|弯曲约束（隔邻节点）的弹簧频率，控制伞面的抗折叠刚度。
+Spring frequency for diagonal shear constraints. Controls how much the canopy resists skewing.|对角剪切约束的弹簧频率，控制伞面的抗斜切能力。
+Spring frequency for structural (direct neighbor) constraints. Higher = stiffer, less stretch.|结构约束（相邻节点）的弹簧频率。较高值使伞面更硬、拉伸更少。
+Spring gain pulling cloth nodes toward the analytic (attractor) inflated pose.|将伞面节点拉向解析充气姿态的弹簧增益。
+Standalone components are not consolidated into a single bundle with other gauge components. Disabling this option will reduce performance of the component if there are multiple of them in the same canvas.|独立组件不会与其他仪表组件合并打包。同一画布中有多个此类组件时，禁用此选项会降低该组件的性能。
+Startup transient|启动瞬态
+Status: ACTIVE|状态：活动
+Status: INACTIVE (mask cleared)|状态：非活动（掩码已清除）
+Steepest slope (deg) the kitten stands square to. On steeper ground it leans only this far from gravity-plumb.|猫咪能完全垂直于地面站立的最大坡度（°）。在更陡地面上，相对于重力竖直方向只倾斜至此角度。
+Streamed full images: ~|已流送的完整图像：约
+Sun AoA:|太阳入射角：
+Sun Efficiency:|太阳能效率：
+Sun Power Distance Fall Off Exponent|太阳能强度距离衰减指数
+Sun Scale Distance Fall Off Exponent|太阳尺寸距离衰减指数
+Suspension line / riser node collision radius, as a FRACTION OF CANOPY DIAMETER. Kept well below the canopy's because the line chains converge on the confluence - too large and they shove each other apart, bowing the lines outward when reefed. Baked into the bepu sim at build time - only takes effect on Reapply Cloth / redeploy, not live.|伞绳/吊带节点碰撞半径，以伞面直径比例表示。应明显小于伞面节点半径，因为绳索在汇合点聚集；过大会互相推开，收束时绳索向外弯曲。参数在构建时固化，仅在重新应用伞面或重新展开后生效。
+Swim speed (m/s) at which the body tilt reaches Swim Tilt High (deg).|身体达到游泳高倾角时的游泳速度（m/s）。
+Swim speed (m/s) at which the body tilt reaches Swim Tilt Low (deg).|身体达到游泳低倾角时的游泳速度（m/s）。
+Swim speed (m/s) at which the treading-water/swim anim blend is pure swim. 0 m/s is always pure treading.|踩水/游泳混合动画完全变为游泳动画时的速度（m/s）。0 m/s 始终为纯踩水。
+Swim speed (m/s) the swim clip was authored at. The blended pair's playback rate = actual speed / nominal, clamped to never drop below 1x so the treading stride keeps its authored cadence.|游泳动画制作时的速度（m/s）。混合动画播放速率等于实际速度除以标称速度，最低限制为 1 倍，使踩水保持原有节奏。
+Swim Tier:|游泳级别：
+Tangential speed (m/s) at which ground contact knocks the kitten into Tumbling instead of landing.|地面接触会使猫咪进入翻滚而非正常落地的切向速度（m/s）。
+Target ground speed (m/s) while sprinting.|冲刺时的目标地面速度（m/s）。
+Target ground speed (m/s) while walking.|步行时的目标地面速度（m/s）。
+Target speed (m/s) the swim velocity servo drives toward while input is held.|持续输入时，游泳速度伺服趋近的目标速度（m/s）。
+Target swim speed (m/s) while Sprint (Shift) is held - the run analog.|按住冲刺键（Shift）时的目标游泳速度（m/s），对应陆地跑步。
+Telemetry (one frame lagged)|遥测（延迟一帧）
+Texel scaled value that handles acne on grazing angles|用于处理掠射角阴影伪影的纹素缩放值
+Texel scaled value that pushes the sample result away|使采样结果远离表面的纹素缩放值
+The fixed radius that 'part radius influence' lerps toward at 0. Unused at influence 1.|部件半径影响系数为 0 时使用的固定参考半径，影响系数为 1 时不使用。
+The QLocal at which Air Drag Rate reaches full strength (linear ramp from 0 at vacuum). Lower this to restore low-q damping without touching high-q behavior.|空气阻尼率达到完整强度时的局部动压，从真空的 0 线性增加。降低此值可恢复低动压下的阻尼，而不影响高动压行为。
+The total amount of cascades. THIS WILL CAUSE A REBUILD|级联总数。更改后会重新构建
+Tilt from vertical (deg) at the high-speed knee; also the clamp above it.|高速转折点处相对于竖直方向的倾角（°），也是更高速度下的倾角上限。
+Tilt from vertical (deg) at the low-speed knee.|低速转折点处相对于竖直方向的倾角（°）。
+Time (s) after a jump during which lingering ground contact is ignored, so liftoff isn't cancelled by the contact that launched it.|跳跃后忽略残留地面接触的时间（s），避免触发起跳的接触又取消离地。
+Time (s) the settle condition must hold before Tumbling hands over to Rightening.|从翻滚转为恢复直立前，必须持续满足稳定条件的时间（s）。
+total|总计
+total emitters|发射器总数
+Total light evals|灯光求值总次数
+Transient (settings+lights+shadow+zbins)|瞬态（设置 + 灯光 + 阴影 + Z 分箱）
+Translation table|平移表
+Truncated clusters|被截断的簇
+Trust-region cap on a single substep's displacement, as a fraction of canopy diameter. Guards against a single dynamic substep flinging a node.|单个子步长位移的可信范围上限，以伞面直径比例表示，防止某个动态子步长将节点甩出。
+Unnamed Biome|未命名生物群系
+unresolved emitter reference|无法解析的发射器引用
+unresolved volume template|无法解析的体积模板
+Update (total)|更新（总计）
+Uploader:|上传器：
+Upper clamp on the walk/run playback rate scaling.|步行/跑步动画播放速率缩放的上限。
+Upward velocity change (m/s) applied by a jump.|跳跃施加的向上速度增量（m/s）。
+Velocity decay rate, applied as exp(-rate*dt): substep-size invariant, unlike a per-substep constant factor. Keep low - it's a numerical-hygiene floor, not the primary damping (see Air Drag Rate).|速度衰减率，按 exp(-rate*dt) 应用，不随子步长大小变化。应保持较低值；它仅用于数值稳定，不是主要阻尼（参见空气阻尼率）。
+Visual atmosphere height|可见大气高度
+Vk Depth Bias|Vulkan 深度偏移
+Vk Slope Bias|Vulkan 坡度偏移
+VMA total:|VMA 总计：
+Volume -|体积 —
+volume pipeline|体积渲染管线
+volume stages|体积阶段
+volumetric particles|体积粒子
+Voxel segment ids|体素分段 ID
+Wakeup Burn|机动唤醒
+Wakeup RCS Cutoff|RCS 关闭唤醒
+Wakeup RCS Fire|RCS 启动唤醒
+Wakeup TVC|推力矢量控制唤醒
+wave count|波浪数量
+What a frame spent its time on, zone by zone.|逐区段查看一帧的时间分配。
+What the 'x radius' fractions above are fractions of. 1 = the part's own radius, so dents scale with whatever they land on. 0 = the fixed reference radius, so a given impact leaves the same size dent on a strut as on a tank. Between the two lerps.|上方半径比例所依据的尺度。1 为部件自身半径，凹陷随部件大小缩放；0 为固定参考半径，同一撞击在支杆和储箱上留下相同尺寸的凹陷。中间值在两者之间插值。
+Which zone caused an intermittent spike, and whether zones spike together.|查看哪个区段引发间歇性尖峰，以及多个区段是否同时出现尖峰。
+World based value to push the vertex position based on the normal|沿法线推移顶点的世界空间偏移值
+World-space cap on the normal-bias offset (0 = auto: 2 x cascade[0] texel size). Prevents shadow silhouette drift at cascade transitions.|法线偏移的世界空间上限（0 为自动，等于第一级联纹素尺寸的 2 倍），用于避免级联交界处阴影轮廓漂移。
+Worley noise 3D|三维 Worley 噪声
+Write all loaded canvases back to|将所有已加载画布写回
+X = Angle between camera and vehicle forward (degrees)\nY = Contribution|X = 摄像机与载具前向的夹角（°）\nY = 贡献值
+X = Normalized Height, Y = Amplitude Scale|X = 归一化高度，Y = 振幅缩放
+X = Radius from Center, Y = Color Noise Amplitude Scale|X = 距中心半径，Y = 颜色噪声振幅缩放
+X = Radius from Center, Y = Crater Depth|X = 距中心半径，Y = 陨石坑深度
+X = Radius from Center, Y = Inner Noise Amplitude Scale|X = 距中心半径，Y = 内部噪声振幅缩放
+X = Radius from Center, Y = Ring Noise Amplitude Scale|X = 距中心半径，Y = 环状噪声振幅缩放
+X = Terrain Altitude (m), Y = Density|X = 地形高度（m），Y = 密度
+Yaw error (deg) inside which the facing servo stays idle.|朝向伺服保持空闲的偏航误差范围（°）。
+Z-Bins|Z 分箱

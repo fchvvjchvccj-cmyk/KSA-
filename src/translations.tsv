@@ -1,0 +1,618 @@
+Simulation paused|模拟已暂停
+Auto warp active|自动时间加速已开启
+Control not active for the followed vehicle|当前跟随的载具未受控制
+No active engines|没有已启动的发动机
+No propellant for active engines|已启动的发动机没有推进剂
+Fuel transfer requires electrical power|燃料输送需要电力
+Fuel transfer blocked: propellant use is disabled on the source tank|燃料输送受阻：源储箱已禁用推进剂
+Throttle limited to stay under the g-force limit|为避免超出过载限制，节流已受限
+Vehicle is close to its maximum g-force load!|载具即将达到最大过载！
+Vehicle is close to its maximum aerodynamic load!|载具即将达到最大气动载荷！
+Duplicate burn.|重复的点火机动。
+Cannot create a burn on a stale flight plan.|无法在已失效的飞行计划中创建点火机动。
+Cannot create a transfer burn: the vehicle has other active burns.|无法创建转移机动：载具还有其他有效机动。
+Fixed camera|固定视角
+Free camera|自由视角
+IVA camera|舱内视角
+Orbit camera|环绕视角
+{Frame} camera|{Frame}参考系视角
+Simulation real time|模拟速度已恢复为实时
+That part already has a fuel port: click the port instead|该部件已有燃料接口，请点击接口
+Cannot load the vehicle to launch|无法加载待发射载具
+Vehicle recovered|载具已回收
+Auto warp stopped|自动时间加速已停止
+Target set: {Target}|已设置目标：{Target}
+Target unset.|已取消目标。
+Control point reset.|控制点已重置。
+Controlling from: {Name}|当前控制点：{Name}
+Cannot create a transfer burn|无法创建转移机动
+Cannot create a transfer burn here: the burn will impact before escaping.|无法在此创建转移机动：载具会在逃逸前撞击天体。
+Cannot create a transfer burn here: allow enough time to exit the sphere of influence.|无法在此创建转移机动：请留出足够时间离开引力影响范围。
+Auto burn stopped: out of propellant. Next burn loaded.|自动点火已停止：推进剂耗尽。已加载下一次机动。
+{Vehicle}: auto burn stopped, out of propellant. Next burn loaded.|{Vehicle}：推进剂耗尽，自动点火已停止。已加载下一次机动。
+Auto burn stopped: out of propellant.|自动点火已停止：推进剂耗尽。
+{Vehicle}: auto burn stopped, out of propellant.|{Vehicle}：推进剂耗尽，自动点火已停止。
+Slow down burn could not be re-planned.|无法重新规划减速机动。
+{Vehicle}: slow down burn could not be re-planned.|{Vehicle}：无法重新规划减速机动。
+Slow down burn re-planned.|减速机动已重新规划。
+{Vehicle}: slow down burn re-planned.|{Vehicle}：减速机动已重新规划。
+Auto burn complete: next burn loaded.|自动点火完成：已加载下一次机动。
+{Vehicle}: auto burn complete, next burn loaded.|{Vehicle}：自动点火完成，已加载下一次机动。
+Auto burn complete.|自动点火完成。
+{Vehicle}: auto burn complete.|{Vehicle}：自动点火完成。
+Vehicle is close to its maximum hydrodynamic load!|载具即将达到最大水动力载荷！
+Vehicle destroyed by hard impact with the ground!|载具猛烈撞击地面，已损毁！
+Vehicle destroyed by hard impact with the ocean!|载具猛烈撞击海面，已损毁！
+Vehicle destroyed by a collision!|载具因碰撞而损毁！
+Vehicle destroyed by excessive g-force!|载具因过载过高而损毁！
+Vehicle destroyed by excessive aerodynamic forces!|载具因气动力过大而损毁！
+Vehicle destroyed by excessive hydrodynamic forces!|载具因水动力过大而损毁！
+Settings|设置
+Tabs|选项卡
+Apply|应用
+Cancel|取消
+Reset Settings|重置设置
+Discard|放弃更改
+Reset Keybindings|重置按键
+Mode|模式
+Screen|显示器
+Resolution|分辨率
+Refresh Rate|刷新率
+Anti-Aliasing|抗锯齿
+Field of View|视野角度
+Vsync|垂直同步
+Frames Queued Ahead|预渲染帧数
+Max Frame Rate|最高帧率
+Always on Top|窗口置顶
+General|常规
+Stars|恒星
+Milky Way Quality|银河画质
+Ambient Lighting|环境光照
+Ambient Occlusion|环境光遮蔽
+Thin Film Interference|薄膜干涉
+Tonemapper|色调映射
+Tonemap Exposure|色调映射曝光
+Tonemap Gamma|色调映射伽马
+UI Pixel Culling|界面像素剔除
+Shadows|阴影
+Lights|灯光
+Lights Size|灯光阴影贴图尺寸
+Lights Slots|灯光阴影槽位
+Hard Shadows Only|仅硬阴影
+Vessels|载具
+Vessel Shadows On Volumetric Exhausts|载具在体积尾焰上投射阴影
+Terrain|地形
+Terrains|地形
+Terrain Map|地形阴影贴图
+Cascaded Shadow Map|级联阴影贴图
+Cascaded Shadow Filter|级联阴影过滤
+No filtering - cheapest option but results in very pixelated shadows|不进行过滤：性能开销最低，但阴影有明显锯齿
+Simple box filter - fixed blur with cheap performance|简单方框过滤：固定模糊，性能开销较低
+Penumbra occlusion - best visual at a higher performance cost|半影遮蔽：视觉效果最佳，性能开销较高
+Skybox|天空盒
+Clouds|云层
+Textures|纹理
+Part Thumbnails|部件缩略图
+Texture Streaming|纹理流送
+Enabled|启用
+VRAM Budget|显存预算
+Tessellation|曲面细分
+Ground Clutter|地表杂物
+Terrain Blending|地形混合
+Cast Shadows|投射阴影
+Ocean|海洋
+Simulation Quality|模拟质量
+Height queries|高度查询
+Planetary rings|行星环
+Rings|行星环
+Volumetric dust|体积尘埃
+Meshes|网格
+Volumetrics|体积效果
+Atmosphere|大气
+Godrays|体积光
+Plume trails|尾焰轨迹
+Explosions|爆炸
+Cloud and trails upscaling|云层与尾迹上采样
+Exhaust Quality|尾焰质量
+Maximum Exhaust Instances|尾焰实例上限
+Blooms, The Sun, and Lens Flares|泛光、太阳与镜头光晕
+Lens Flares|镜头光晕
+Lens Flare Intensities|镜头光晕强度
+Global Bloom|全局泛光
+Threshold Bloom|阈值泛光
+Distant Glints|远处反光
+Show Distant Glints|显示远处反光
+Vessel Effects|载具效果
+Frost|结霜
+Water|水
+Impact Dents|撞击凹陷
+Impact Dent Quality|撞击凹陷质量
+Kittens|猫咪
+Fur Quality|毛发质量
+Particles|粒子
+Particle Quality|粒子质量
+Quality|质量
+Blur Passes|模糊次数
+Raytracing|光线追踪
+IVA Ray Tracing|舱内光线追踪
+Reflection Bounces|反射次数
+Opaque Reflection Resolution Scale|不透明反射分辨率比例
+Translucent Reflection Resolution Scale|半透明反射分辨率比例
+Indirect Lighting Bounces|间接光照反弹次数
+Indirect Lighting Resolution Scale|间接光照分辨率比例
+Shadow Resolution Scale|阴影分辨率比例
+Debug|调试
+Shader hot reloading (enabling requires restart).|着色器热重载（启用后需重启）。
+Master Volume|主音量
+Sfx Volume|音效音量
+UI Volume|界面音量
+Music Volume|音乐音量
+Celestial Names|天体名称
+Location Names|地点名称
+Auto-Hide Menu Bar|自动隐藏菜单栏
+Frame Statistics|帧统计
+Manual Orbit Line Visibility|手动控制轨道线显示
+Map Grid Toggle|地图网格开关
+Crew Portrait Cameras|成员肖像视角
+Camera Jump Time|视角切换时间
+Mouse Hover Highlight Color|鼠标悬停高亮颜色
+Gauges|仪表
+Sharpness|锐度
+HUD Scale|仪表界面缩放
+Font|字体
+Interface Scale|界面缩放
+Density|密度
+Pixel Snap|像素对齐
+Orbit Lines|轨道线
+Track Color|轨迹颜色
+Patch Color|轨道段颜色
+Burn Color|机动颜色
+Inactive Color|非活动颜色
+Editor|编辑器
+Hide Edge-On Rotation Rings|隐藏侧向旋转环
+System|系统
+Config Popup|启动配置窗口
+Welcome Popup|欢迎窗口
+Check for Updates|检查更新
+Show Changelog on Updated|更新后显示更新日志
+Camera Sensitivity|视角灵敏度
+Mouse Look|鼠标视角
+Roll|滚转
+Editor Free Camera Scroll Moves Camera|编辑器中滚轮移动自由视角
+Key Assignments|按键绑定
+Performance|性能
+Orbit Solvers|轨道求解器
+Minimum Target Framerate|最低目标帧率
+Maximum Flight Computer Rate|飞行计算机最大更新率
+[Experimental] Enable Collisions|[实验功能] 启用碰撞
+OnBoot|启动时
+OnLoad|加载时
+No burn currently exists.|当前没有点火机动。
+Transfer the departure burn to your flight plan first.|请先将出发机动转入飞行计划。
+No target currently set.|当前未设置目标。
+No engine is currently active.|当前没有已启动的发动机。
+Burn duration is empty.|点火持续时间为空。
+No vehicle control module.|载具没有控制模块。
+ABANDON VEHICLE|放弃载具
+PAUSED|已暂停
+RESUME|继续
+SAVE/LOAD|保存/加载
+EXIT EDITOR|退出编辑器
+NEW VEHICLE|新建载具
+LAUNCH VEHICLE|发射载具
+RECOVER VEHICLE|回收载具
+RECOVER|回收
+QUIT|退出
+SIMULATION PAUSED|模拟已暂停
+RESET|重置
+CLOSE|关闭
+RESET KEYS|重置按键
+NO PENDING CHANGES|没有待应用的更改
+TABS PENDING|个选项卡有待应用的更改
+TAB PENDING|个选项卡有待应用的更改
+PENDING|待应用
+RESTART REQUIRED ON APPLY|应用后需要重启
+OUTPUT|输出
+CAMERA AND FRAME|视角与帧
+DISPLAY|显示
+Unlimited|不限制
+unavailable|不可用
+workers|个工作线程
+Monitor the fullscreen and borderless modes cover, listed with each screen's name and resolution. A windowed window is moved by dragging it.|选择全屏或无边框模式使用的显示器；列表显示名称和分辨率。窗口模式下可拖动窗口移动。
+Global Scale of Hud elements|仪表界面元素的整体缩放
+UI text size. Windows, widgets and tooltips scale with it.|界面文字大小。窗口、控件和提示框会随之缩放。
+This should generally be set to only a portion of the number CPU cores your system has.|通常应设为少于系统 CPU 核心总数的值。
+CONFIGURATION|启动配置
+Always Show|始终显示
+Some systems may require more Video Memory (VRAM) than others due to texture size for color and heightmap data, and may not be available or crash the game if you do not have enough VRAM available.|部分天体系统的颜色纹理和高度图需要更多显存；显存不足时可能无法使用这些系统，或导致游戏崩溃。
+Reported usage and budget|已用显存与预算
+Select System|选择天体系统
+Solar System|太阳系
+Game Type|游戏类型
+Type|类型
+Testing|测试模式
+Starting Situation|初始场景
+Vehicle|载具
+Location|地点
+Orbit around Earth|环绕地球轨道
+Light System|光照系统
+Enable Shadows|启用阴影
+Casters|投影数量
+Thumbnails|缩略图
+Parts|部件
+Start KSA|开始游戏
+None|无
+Off|关闭
+On|开启
+Low|低
+Medium|中
+High|高
+Ultra|极高
+Very High|很高
+Disabled|禁用
+Fullscreen|全屏
+Borderless|无边框
+Windowed|窗口
+WELCOME|欢迎
+TRANSFER PLANNING|轨道转移规划
+PLAN|计划
+PLAN TYPE|计划类型
+Interstellar|星际航行
+N/A|不适用
+SOURCE|起点
+Hohmann|霍曼转移
+DESTINATION|终点
+NONE AVAILABLE|没有可用选项
+TRANSFER WINDOW|转移窗口
+TIME OF FLIGHT|飞行时间
+TIME UNIT|时间单位
+MINIMUM TIME OF FLIGHT|最短飞行时间
+THREADS|线程数
+MAXIMUM TIME OF FLIGHT|最长飞行时间
+SET TARGET|设置目标
+SHOW PARENT/TARGET ALIGNMENT|显示主天体与目标的对齐关系
+MUST HAVE A VALID ORBIT|需要有效轨道
+CALCULATE|计算
+RE-CALCULATE|重新计算
+Circularize Apoapsis|在远拱点圆化轨道
+Circularize Periapsis|在近拱点圆化轨道
+NO SOURCE VEHICLE|没有起始载具
+NO VALID APSIS ON THIS ORBIT|此轨道上没有有效拱点
+BEST TRANSFER|最佳转移
+SELECT BEST DV|选择最低 Δv
+SELECT BEST DV + INTERCEPT VEL|选择最低 Δv 与交会速度
+SELECTED TRANSFER|选定的转移
+PREVIEW SELECTED TRANSFER|预览选定转移
+PREVIEW SELECTED TRANSFER FLIGHT PLAN|预览选定转移的飞行计划
+PREVIEW LAMBERT TRANSFER|预览兰伯特转移
+DEPARTURE × FLIGHT TIME - DV|出发时间 × 飞行时间 — Δv
+NO SOLUTION FOUND|未找到解
+CALCULATING…|正在计算…
+NO SELECTION|未选择
+TRANSFER SELECTED|已选择转移
+CREATE|创建
+SPEED UP BURN IN|距加速点火
+SLOW DOWN BURN IN|距减速点火
+ARRIVES IN|距抵达
+ARRIVAL PERIAPSIS|抵达近拱点
+PLANNED SPEED UP BURN|计划加速机动
+PLANNED SLOW DOWN BURN|计划减速机动
+DEPART|出发
+TRANSIT|转移
+INTERCEPT VELOCITY|交会速度
+CLOSEST APPROACH|最近接近
+NO STAR NEARBY|附近没有恒星
+NO OTHER STAR|没有其他恒星
+DEPARTING|出发地
+CROSSING|穿越
+DISTANCE|距离
+NO ACTIVE ANTIMATTER DRIVE|没有已启动的反物质引擎
+MAX SPEED|最高速度
+SPEED UP BURN ANTIMATTER|加速机动反物质用量
+SLOW DOWN BURN ANTIMATTER|减速机动反物质用量
+FINAL SPEED|最终速度
+CIRCULAR SPEED AT PERIAPSIS|近拱点圆轨道速度
+THE SPEED UP BURN GOES NOWHERE|加速机动无法形成有效航程
+SPEED UP BURN|加速机动
+COAST|惯性飞行
+COAST TIME|惯性飞行时间
+HYDROGEN SCOOPED|收集的氢
+SLOW DOWN BURN|减速机动
+NOT ENOUGH ROOM LEFT TO SLOW DOWN|剩余距离不足以减速
+SLOW DOWN BURN RUNS OUT OF ANTIMATTER|减速机动所需反物质不足
+JOURNEY|航程
+MUST DEPART FROM A BODY ORBITING THE STAR|必须从绕该恒星公转的天体出发
+NO DEPARTURE FOUND AT THIS SPEED|此速度下未找到可行出发方案
+ANTIMATTER USED|反物质用量
+AFTER SLOWING DOWN|减速后
+APPROACH CORRECTION|接近修正
+CALCULATING CORRECTION…|正在计算修正…
+ALL PLANS EXPIRE|全部计划失效时间
+ALL PLANS UPDATE IN|全部计划更新倒计时
+Mass|质量
+Altitude|高度
+Velocity|速度
+Volume|体积
+Radius|半径
+Pressure|压力
+Temperature|温度
+Thrust|推力
+Propellant|推进剂
+Power Generated|发电功率
+Power Used|耗电功率
+Battery Capacity|电池容量
+Decoupler Force|分离器作用力
+Parent|主天体
+Forward|前向
+Max|最大
+Min|最小
+Value|数值
+Altitude (km)|高度（km）
+Altitude:|高度：
+Alt (Baro)|气压高度
+Alt (Radar)|雷达高度
+Alt:|高度：
+Angular Velocity|角速度
+Argument of Periapsis|近拱点辐角
+At Apoapsis|在远拱点
+At Ascending Node|在升交点
+At Descending Node|在降交点
+At Periapsis|在近拱点
+Above Atmosphere|大气层外
+AXIAL TILT|自转轴倾角
+ATMOSPHERE HEIGHT|大气高度
+Celestial Info|天体信息
+Closest Approach Body|最近接近天体
+Closest Approach Distance|最近接近距离
+Closest Approaches|最近接近
+Closest Distance|最近距离
+Closest Planet|最近行星
+Closest Approach to|最近接近
+Destination Body|目标天体
+Distance to Sun:|距太阳：
+Distance Travelled|已飞行距离
+Distances to Mean Surface|距平均表面的距离
+DYNAMIC PRESSURE|动压
+Encounter Distance|交会距离
+Encountered Body|交会天体
+Escape to|逃逸至
+Escaping to|正在逃逸至
+Est. impact with:|预计撞击：
+Earth|地球
+Sun|太阳
+Luna|月球
+Moon|月球
+Mercury|水星
+Venus|金星
+Mars|火星
+Jupiter|木星
+Saturn|土星
+Uranus|天王星
+Neptune|海王星
+Pluto|冥王星
+Phobos|火卫一
+Deimos|火卫二
+Io|木卫一
+Europa|木卫二
+Ganymede|木卫三
+Callisto|木卫四
+Titan|土卫六
+Triton|海卫一
+Ceres|谷神星
+Earth Only|仅地球
+Earth System|地月系统
+Solar System (Dense)|太阳系（密集）
+Solar System Interstellar|太阳系与星际空间
+Rocket|火箭
+Booster|助推器
+Capsules|指令舱
+Engines|发动机
+Fuel Tanks|燃料储箱
+Electrical|电气
+Coupling|连接与分离
+Structural|结构
+Landing|着陆
+Interstage|级间段
+Passage|通道
+Cargo|货物
+Radial|径向
+All|全部
+Hidden|隐藏
+Fuel Port|燃料接口
+LR91 Sea|LR91 海平面型
+LR91 Vac|LR91 真空型
+LR91 Vac + Verniers|LR91 真空型与游动发动机
+RAIR-1 Antimatter Ramjet|RAIR-1 反物质冲压引擎
+FPD-1 Torch|FPD-1 聚变火炬引擎
+SRB Size D Thrust Assembly|D 型固体助推器推力组件
+SRB Size D Segment|D 型固体助推器分段
+SRB Size E Thrust Assembly|E 型固体助推器推力组件
+SRB Size E Segment|E 型固体助推器分段
+MRS-1 Magnetic Scoop|MRS-1 磁性收集器
+MTT-1 Magnetic Trap Tank|MTT-1 磁约束储箱
+Parachute Bay|降落伞舱
+Drogue Radial A|径向减速伞 A
+Drogue Radial B|径向减速伞 B
+Parachute Radial A|径向主伞 A
+Parachute Radial B|径向主伞 B
+Drogue|减速伞
+Main Parachutes|主降落伞
+Control Pitch|俯仰控制
+Control Roll|滚转控制
+Control Yaw|偏航控制
+Control Vehicle|控制载具
+Controlled vehicle|受控载具
+Assigned Vehicle|所属载具
+Currently Following|当前跟随
+Current Target:|当前目标：
+Current Mission Elapsed|当前任务耗时
+Elapsed Time|已用时间
+Time|时间
+Year|年
+Years|年
+Day|天
+Days|天
+Hour|小时
+Hours|小时
+Minute|分钟
+Minutes|分钟
+Second|秒
+Seconds|秒
+Ship|飞船
+Vessel|载具
+Name|名称
+Save|保存
+Load|加载
+Delete|删除
+Overwrite|覆盖
+New|新建
+Reset|重置
+Clear|清空
+Follow|跟随
+Control|控制
+Target|目标
+Clear Target|取消目标
+Exit Game|退出游戏
+Are you sure you want to exit the game?|确定要退出游戏吗？
+Are you sure you want to abandon this vehicle?|确定要放弃这艘载具吗？
+Are you sure you want to recover|确定要回收
+Are you sure you want to delete all|确定要删除全部
+Are you sure you want to destroy|确定要摧毁
+Are you sure you want to delete layout '|确定要删除布局“
+Are you sure you want to delete save '|确定要删除存档“
+Are you sure you want to delete saved vehicle '|确定要删除已保存的载具“
+Are you sure you want to overwrite layout '|确定要覆盖布局“
+Are you sure you want to overwrite saved vehicle '|确定要覆盖已保存的载具“
+A name needs at least one letter or number.|名称中至少需要一个字母或数字。
+Cannot create a new vehicle save: there is no vehicle in the editor|无法新建载具存档：编辑器中没有载具
+Cannot overwrite a vehicle save: there is no vehicle in the editor|无法覆盖载具存档：编辑器中没有载具
+Changes apply immediately and are saved to your settings file.|更改立即生效，并保存到设置文件。
+Do you want to clear the current vehicle and create a new one?|要清空当前载具并新建一艘吗？
+Double click a layout to apply it, right click for its context menu. Clicking a header sorts by that column.|双击布局即可应用，右键打开操作菜单。点击列标题可按该列排序。
+Double click a save to load it, and right click to gain access to that saves context menu. Clicking on a header item will toggle sorting for that column.|双击存档即可加载，右键打开操作菜单。点击列标题可切换该列的排序方式。
+Double-click an assigned vehicle to follow it. Click a column header to sort the roster.|双击所属载具即可跟随。点击列标题可排序成员名单。
+Double-click an item to focus on it or Shift-Click to target it with the currently controlled vessel. You can also filter objects in this window or toggle columns.|双击对象可聚焦；按住 Shift 点击可设为当前受控载具的目标。也可在此筛选对象或切换显示列。
+Double-click to follow|双击跟随
+Double-click to follow and control|双击跟随并控制
+Double click to teleport|双击传送
+Double click to focus camera\nShift + Click to set/unset target|双击聚焦视角\nShift + 点击设置/取消目标
+Add Burn|添加点火机动
+Add Burn Here|在此添加点火机动
+A burn already exists here.|此处已有点火机动。
+A departure burn must be the first burn. Delete other burns to enable.|出发机动必须是第一次机动。删除其他机动后可启用。
+Chained burns can only be created on your final post-burn trajectory.|连续机动只能在最后一次点火后的轨迹上创建。
+Burn Left|剩余点火时间
+Burn Mode|点火模式
+Burn Time:|点火时间：
+BURN TIME|点火时间
+Burn FlightPlan Expires at:|机动飞行计划失效时间：
+Burn Relative Inclination:|机动相对倾角：
+DELETE BURN|删除机动
+Delete this fuel line|删除此燃料管线
+DELETE LAYOUT|删除布局
+DELETE SAVE|删除存档
+Delete vehicle|删除载具
+Delete every piece of debris in this system|删除此天体系统中的全部碎片
+CLEAR DEBRIS|清除碎片
+CLEAR & CREATE|清空并新建
+Create New Vehicle|新建载具
+Build New Vehicle|建造新载具
+Drag to adjust burn dV|拖动调整机动 Δv
+Drag to fire in another sequence|拖动至其他级序列中执行
+Bin: drag a part here to delete it|回收区：将部件拖到此处删除
+Drop part here to delete|将部件拖到此处删除
+All Sizes|所有尺寸
+Any Parent|任意主天体
+Any Body Count|任意天体数量
+Align Planes|对齐轨道平面
+Align Selected to|将选中项对齐至
+Center All Selected to Canvas|将全部选中项居中于画布
+Center to Canvas|居中于画布
+Angle Snapping:|角度吸附：
+Attached parts (|连接部件（
+Add SubParts|添加子部件
+Add Above|在上方添加
+Add Below|在下方添加
+Add New Group|添加新分组
+Connect Fuel Line|连接燃料管线
+Cancel Fuel Line|取消燃料管线
+Direction fuel is allowed to flow, relative to this part. Click to cycle.|相对于此部件允许的燃料流向。点击切换。
+Direction fuel is allowed to flow. Click to cycle.|允许的燃料流向。点击切换。
+Automatic resource grouping. Switch off to manage resource groups manually.|自动对资源分组。关闭后可手动管理资源组。
+Every resource on this vehicle is already at max capacity.|此载具的所有资源均已装满。
+Fill every resource on this vehicle to max capacity.|将此载具的全部资源补充至最大容量。
+Fill this tank from every tank set to Out on another open part window. Uses electrical power.|从其他已打开部件窗口中设为“输出”的储箱补充此储箱，需要消耗电力。
+Drain this tank into every tank set to In on another open part window. Uses electrical power.|将此储箱的燃料输送至其他已打开部件窗口中设为“输入”的储箱，需要消耗电力。
+Environment for this sequence's delta-v and TWR. Click to toggle. Atmospheric uses sea-level (1 atm) engine performance.|此级序列计算 Δv 和推重比的环境。点击切换。大气环境使用海平面（1 atm）的发动机性能。
+All grain segments are already full.|所有固体药柱分段均已装满。
+Ambient pressure at which optimum exhaust gas expansion occurs.|尾气达到最佳膨胀状态时的环境压力。
+Chamber Pressure|燃烧室压力
+Chamber pressure (bar)|燃烧室压力（bar）
+Chamber Pressure:|燃烧室压力：
+Chamber Temperature|燃烧室温度
+Chamber temperature (K)|燃烧室温度（K）
+Characteristic Velocity|特征速度
+Characteristic velocity is a measure of combustion efficiency independent of the nozzle; higher is better.|特征速度衡量与喷管无关的燃烧效率；数值越高越好。
+Combustion Pressure|燃烧压力
+Combustion Products|燃烧产物
+Combustion products are the exhaust gases that result from burning the propellants in the combustor.|燃烧产物是推进剂在燃烧室中燃烧形成的尾气。
+Combustion Temperature|燃烧温度
+Design Parameters|设计参数
+Design this engine for atmospheric or vacuum operation.|选择发动机在大气或真空环境下的设计工况。
+Engine Designer|发动机设计器
+Engine Debug|发动机调试
+Engine On/Off|发动机开关
+Engine designer data copied to clipboard|发动机设计数据已复制到剪贴板
+Actual Exhaust Velocity|实际排气速度
+Exhaust Pressure|排气压力
+Exhaust Pressure:|排气压力：
+Exhaust Temperature|排气温度
+Exhaust velocity (m/s)|排气速度（m/s）
+Exit Pressure|出口压力
+Exit pressure (bar)|出口压力（bar）
+Exit Temperature|出口温度
+Exit temperature (K)|出口温度（K）
+Expansion Efficiency:|膨胀效率：
+Area Ratio|面积比
+Area Ratio (sized)|面积比（按尺寸）
+Area Ratio Multiplier|面积比倍率
+Area of the nozzle throat, which is the opening that the combustion gases must pass through.|喷管喉部面积，即燃烧气体必须通过的最窄截面面积。
+Configure nozzles individually|分别配置各喷管
+Configure segments individually|分别配置各分段
+Configure tanks individually|分别配置各储箱
+Decreases exhaust pressure upstream of the nozzle throat, primarily decreasing thrust.|降低喷管喉部上游的排气压力，主要使推力下降。
+Decreases the amount of thermal energy extracted from the propellant, reducing thrust and specific impulse.|减少从推进剂中提取的热能，使推力和比冲下降。
+Expansion relative to the motor's. Raising one nozzle's throttles it back, tilting the cluster's thrust away from it.|相对于发动机的膨胀倍率。提高某个喷管的值会降低其推力，使组合推力偏离该喷管方向。
+A property that defines how a gas behaves thermodynamically; lower is better.|定义气体热力学行为的参数；数值越低越好。
+Core Temperature:|核心温度：
+Charge Stored:|储存电量：
+Battery Capacity:|电池容量：
+Capacity:|容量：
+Available Volume:|可用体积：
+Burning Area:|燃烧面积：
+Chemical Yield (J/kg)|化学能量密度（J/kg）
+Canopy Color|伞面颜色
+Canopy Diameter|伞面直径
+Canopy diameter when fully open. Sets drag area and packed mass, shared by every chute in this part.|完全展开时的伞面直径，决定阻力面积和收纳质量，此部件内的所有降落伞共用此值。
+Canopy diameter, which sets both drag area and packed mass. Applies to every chute in this part, and is only adjustable before they deploy.|伞面直径，决定阻力面积和收纳质量。此部件内所有降落伞共用此值，仅在展开前可调整。
+Canopy fabric pattern.|伞面织物图案。
+Deploy Altitude|展开高度
+Deploy Altitude (m)|展开高度（m）
+Altitude gate for an armed chute.|待命降落伞的展开高度门槛。
+Altitude gate for an armed chute, shared by every chute in this part. 0 = no altitude gate: an armed chute deploys as soon as deployment is safe (g-limit + dynamic pressure). With an altitude set it waits for both.|此部件内所有待命降落伞共用的展开高度门槛。0 表示不限制高度，满足过载和动压安全条件后立即展开；设置高度后，须同时满足高度条件。
+Adds a cut element to the sequence so cutting these chutes can be staged.|向级序列添加切伞动作，使这些降落伞可以按级切断。
+Cut In Sequence|在级序列中切伞
+Disreef Now|立即解除收束
+Disreef only once predicted peak deceleration would stay under this many g.|仅在预计最大减速度不超过此过载值时解除收束。
+Controlled vehicle has no Parachute modules.|受控载具没有降落伞模块。
+Decoupler Enabled|启用分离器
+Docked to|对接至
+Fill ALL vehicle seats|填满载具全部座位
+Fill Seats|填充座位
+Crew|成员
+Pilot|驾驶员
+Engineer|工程师
+Scientist|科学家
+Seats|座位
+Occupied|已占用
+Empty|空

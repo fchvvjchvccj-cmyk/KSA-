@@ -1,0 +1,659 @@
+A/B Compare|A/B 对比
+Absorption ratio|吸收比例
+Achieved Speed|实际达到速度
+Active (follow running)|活动（跟随运行）
+Active (servo running)|活动（伺服运行）
+Active emitters|活动发射器
+Active volumes|活动体积
+Add Camera|添加摄像机
+Add Child|添加子项
+Add Flash|添加闪光
+Add SoundEvent|添加声音事件
+Add EmitterRef|添加发射器引用
+Add VolumeRef|添加体积引用
+Add test dent|添加测试凹陷
+Add/Del Period|增加/减少周期
+Adds a full-screen debug pass while enabled.|启用时添加全屏调试渲染通道。
+Adjust as Lerp|以线性插值调整
+Aero Gain|气动增益
+Air Drag Rate (1/s)|空气阻尼率（1/s）
+Alloc (ascending)|分配量（升序）
+Alloc (descending)|分配量（降序）
+Along:|沿向：
+Alpha Envelope|透明度包络
+Alpha Envelope End|透明度包络终值
+Alpha Envelope Peak|透明度包络峰值
+Alpha Envelope Peak At|透明度峰值位置
+Alpha Envelope Start|透明度包络初值
+Altitude Density Curve|高度密度曲线
+Altitude multiplier|高度倍率
+Altitude Offset (Km)|高度偏移（km）
+Ambient Pressure Override (0 = real)|覆盖环境压力（0 为实际值）
+Amplitude Height Curve|振幅高度曲线
+Amplitude persistence|振幅持续率
+Amplitude|振幅
+Anchor Handle|锚点手柄
+Angle Deadband|角度死区
+Angle threshold|角度阈值
+Angle Turnaround X|X 轴转向角
+Angle Turnaround Y|Y 轴转向角
+Angle Turnaround Z|Z 轴转向角
+Angular Damping (Nms)|角阻尼（N·m·s）
+Angular Impulse Budget|角冲量预算
+Anim Blend Time|动画混合时间
+Anim Playback Rate:|动画播放速率：
+Animation Noise|动画噪声
+Animation|动画
+ApproxTexelWorld:|近似世界空间纹素尺寸：
+Arrive from|抵达来源
+Arrow Scale|箭头缩放
+At Camera|在摄像机处
+At Controlled Vehicle|在受控载具处
+At Ground Below Camera|在摄像机下方地面处
+At Part|在部件处
+Atlas Occupancy %|图集占用率 %
+Atlas Size|图集尺寸
+Atm pressure value|大气压力值
+Atmosphere Attenuation|大气衰减
+Atomic counts|原子数量
+Attitude Frame|姿态参考系
+Attitude Mode|姿态模式
+Attitude Track|姿态跟踪
+Attractor Damping|吸引场阻尼
+Attractor Gain|吸引场增益
+Audio Debug|音频调试
+AUTO (memory budget extension)|自动（内存预算扩展）
+AUTO (quarter of VRAM)|自动（显存的四分之一）
+Auto Generate Slices|自动生成切片
+Auto Irregularity Curve|自动不规则度曲线
+Auto-generate from bounding box|从包围盒自动生成
+Avg:|平均：
+Base Following|基础跟随
+Base Gradient Strength|基础梯度强度
+Begin:|开始：
+Bent Orb Multiplier|弯曲光斑倍率
+Bepu Backend|Bepu 后端
+Bepu Bend Hz|Bepu 弯曲频率
+Bepu Contact Friction|Bepu 接触摩擦
+Bepu Damping Ratio|Bepu 阻尼比
+Bepu Line Node Radius (reapply)|Bepu 绳索节点半径（需重新应用）
+Bepu Node Radius (reapply)|Bepu 节点半径（需重新应用）
+Bepu Self Collision|Bepu 自碰撞
+Bepu Shear Hz|Bepu 剪切频率
+Bepu Structural Hz|Bepu 结构频率
+Bepu Velocity Iterations (reapply)|Bepu 速度迭代次数（需重新应用）
+Bias|偏移
+Bin depth ratio|分箱深度比例
+Biome Blend Strength|生物群系混合强度
+Bitfield words/cluster|每簇位字段字数
+Blur Original Scalar|原图模糊系数
+Blur Radius|模糊半径
+Blur Scalar|模糊系数
+Blur Threshold|模糊阈值
+Body Grid Planes|天体网格平面
+Bounding Radius|包围半径
+Bubble Position|物理范围位置
+Bubble Velocity|物理范围速度
+Budget:|预算：
+Burst Pressure (Pa)|破裂压力（Pa）
+BVH Debug|包围体层次调试
+Byte Size:|字节数：
+Canopy mass|伞面质量
+Capture Radius:|捕获半径：
+Cascade Count|级联数量
+Cascade Splits|级联分割
+Cascaded Shadow Map Debug|级联阴影贴图调试
+Cascaded Shadows|级联阴影
+Catch spikes|捕获性能尖峰
+Channels:|通道：
+Child Emitters|子发射器
+Chord factor|弦误差系数
+Chromatic Shift|色差偏移
+Clear all dents|清除全部凹陷
+Clear Lights|清除灯光
+Clear volumes|清除体积
+Clip Pose:|动画姿态：
+Cloth Pool (used/alloc):|伞面对象池（已用/分配）：
+Cloth Solver Tuning (global)|伞面求解器参数（全局）
+Cloud types|云层类型
+Cluster near (m)|近端聚类（m）
+Clustered Light|聚类光照
+Coarse cell data|粗网格单元数据
+Coarse fallback|粗网格回退
+Coarse grid mask|粗网格掩码
+Coarse List|粗网格列表
+Coarse scan sums|粗网格扫描求和
+Coarse segment ids|粗网格分段 ID
+Coarse Tile Mask|粗瓦片掩码
+Coarse tiles X|粗瓦片 X 数量
+Collect Eval Stats|收集求值统计
+Collecting:|正在收集：
+Color 1|颜色 1
+Color 2|颜色 2
+Color End|终点颜色
+Color Mid|中点颜色
+Color Mid At|中点颜色位置
+Color Mode|颜色模式
+Color Radial Frequency|颜色径向频率
+Color Radial Noise Curve|颜色径向噪声曲线
+Color Radial Power|颜色径向指数
+Color Shift|颜色偏移
+Color Start|起点颜色
+Color Stops|颜色节点
+Color Stops End|颜色节点终点
+Color Stops Mid|颜色节点中点
+Color Stops Mid At|颜色节点中点位置
+Color Stops Start|颜色节点起点
+Commands (selected chute)|命令（选定降落伞）
+Component:|组件：
+Components:|组件：
+Configured emitters|已配置发射器
+Const Bias|常量偏移
+Constant Bias|常量偏移
+Consuming:|消耗中：
+Copy as C#|复制为 C#
+Copy auto generated curve to manual curve|将自动生成曲线复制为手动曲线
+Copy Explosion + Referenced Emitters|复制爆炸与引用发射器
+Copy Explosion XML|复制爆炸 XML
+Copy preset specular to manual|将预设高光曲线复制为手动曲线
+Core Length weights|核心长度权重
+Coyote Time|离地宽限时间
+CPU Timers|CPU 计时器
+Crater Inner Noise Curve|陨石坑内部噪声曲线
+Crater Radius Scale|陨石坑半径缩放
+Crater Ring Noise Curve|陨石坑环状噪声曲线
+Crater Shape Curve|陨石坑形状曲线
+Crater Size Variation|陨石坑尺寸变化
+Cross:|交叉：
+Cubemap Face|立方体贴图面
+Current (ms)|当前（ms）
+CurrentAngle:|当前角度：
+Custom Rot (deg)|自定义旋转（°）
+Damping Rate (1/s)|阻尼率（1/s）
+Day-Night Cycle|昼夜循环
+Debug Draw Cloth|绘制伞面调试图
+Debug Draw Depth|绘制深度调试图
+Debug Mode|调试模式
+Debug Orb Color Scalar|调试光斑颜色系数
+Debug Orb Size Modifier|调试光斑尺寸修正
+Debug Render/Blur Options|调试渲染与模糊选项
+Debug Rendering|调试渲染
+Debug Spawner|调试生成器
+Debug/override atm pressure|调试/覆盖大气压力
+Decal Editor|贴花编辑器
+Decay (s)|衰减时间（s）
+Default Tile Size|默认瓦片尺寸
+Delay (s)|延迟（s）
+Delta-V Debug|Δv 调试
+Density Noise|密度噪声
+Density over altitude|密度随高度变化
+Density:|密度：
+dents:|凹陷数量：
+Departure Normal|出发法向
+Departure Outward|出发径向向外
+Departure Prograde|出发顺行
+Depth (m)|深度（m）
+Depth at crash tolerance|碰撞耐受值处的深度
+Depth growth|深度增长
+Depth scale|深度缩放
+Depth share @peak|峰值深度占比
+Destroy Energy Per Kg|每千克破坏能量
+Destroy Vehicle For Real|实际摧毁载具
+Detail Fade End Distance (Km)|细节淡出终点距离（km）
+Detail Fade Start Distance (Km)|细节淡出起点距离（km）
+Detail Tile Size (km)|细节瓦片尺寸（km）
+Device Shared Memory Debug|设备共享内存调试
+Diameter (m)|直径（m）
+Diffuse Irradiance|漫反射辐照度
+Diffuse Scale|漫反射缩放
+Direction|方向
+Discretisation guard|离散化保护
+Dispatch Compute|调度计算
+Dispatched %|已调度 %
+Displace Energy Per Kg|每千克位移能量
+Displacement Scale|位移缩放
+Display ray segment length|显示光线路段长度
+Display volume bounds|显示体积边界
+Dist:|距离：
+Distance (m)|距离（m）
+Distant Spheres|远处球体
+Distortion Amplitude|畸变振幅
+Distortion Scale|畸变缩放
+Distribution Texture Tiling|分布纹理平铺
+Downscale Height Limit (0 to turn off)|降采样高度上限（0 为关闭）
+Draw Action Sphere(s)|绘制动作球体
+Draw Axes|绘制坐标轴
+Draw Bounding Box(es)|绘制包围盒
+Draw Bounding Sphere(s)|绘制包围球
+Draw Bounds|绘制边界
+Draw Bounds At Depth|按深度绘制边界
+Draw Bounds Max Depth|绘制边界的最大深度
+Draw Collider(s)|绘制碰撞体
+Draw Colliders|绘制碰撞体
+Draw Degrees|显示角度
+Draw dent footprints|绘制凹陷影响范围
+Draw Frustum|绘制视锥
+Draw Graph|绘制图表
+Draw Mass(es)|绘制质量
+Draw Part Axes|绘制部件坐标轴
+Draw Relative|绘制相对值
+Draw Terrain|绘制地形
+Draw Terrain Grid|绘制地形网格
+Draw the equatorial plane of the followed body and its target alongside the ecliptic.|在黄道面旁绘制跟随天体和目标天体的赤道面。
+Duration (s)|持续时间（s）
+Ecotype Parameters|生态类型参数
+Edge Length (px)|边长（px）
+Edge Sharpness|边缘锐度
+Editor Toggle|切换编辑器
+Ejecta Chance|喷出物概率
+Emission heat exponent|发射热量指数
+Emitter Extents|发射器范围
+Emitter Extra|发射器附加参数
+Emitter Grouping|发射器分组
+Emitter groups|发射器组
+Emitter Shape|发射器形状
+Emitter Size|发射器尺寸
+Emitter Stages|发射器阶段
+Enable Debug|启用调试
+Enable stabilization to apply texel snapping and reduce shimmering|启用稳定化，应用纹素吸附以减少闪烁
+Enable UI pixel culling|启用界面像素剔除
+End Falloff (km)|衰减终点（km）
+Erosion Amplitude|侵蚀振幅
+Erosion Basin Strength|侵蚀盆地强度
+Erosion Curvature|侵蚀曲率
+Erosion Falloff Strength|侵蚀衰减强度
+Erosion Frequency|侵蚀频率
+Erosion Gradient Falloff|侵蚀梯度衰减
+Erosion Lacunarity|侵蚀间隙度
+Erosion Octaves|侵蚀叠加层数
+Erosion Strength|侵蚀强度
+Error Angle|误差角
+Error Angle Limit|误差角上限
+Error Angle Pitch|俯仰误差角
+Error Angle Roll|滚转误差角
+Error Angle Yaw|偏航误差角
+Error Rate Limit|误差角速度上限
+Error Rate Pitch|俯仰误差角速度
+Error Rate Roll|滚转误差角速度
+Error Rate Yaw|偏航误差角速度
+Error:|错误：
+Explosion + emitters XML copied to clipboard.|爆炸与发射器 XML 已复制到剪贴板。
+Explosion Volumes|爆炸体积
+Explosion XML copied to clipboard.|爆炸 XML 已复制到剪贴板。
+Explosions Per Frame Budget|每帧爆炸数量预算
+Export Resolution|导出分辨率
+Extent (km)|范围（km）
+Extinction scale|消光缩放
+Facing Deadband (deg)|朝向死区（°）
+Facing Half Life|朝向半衰期
+Factor of Downscale Height Limit|降采样高度上限系数
+Fade Fraction|淡出比例
+Fallback Emitter|回退发射器
+fallback to particles|回退为粒子
+Falloff Function|衰减函数
+Falloff Power|衰减指数
+far (m)|远端（m）
+Fast / Slow|快/慢
+Fastest Speed|最快速度
+FC Wake Requests|飞行计算机唤醒请求
+Feet Down Tilt (deg)|脚向下倾角（°）
+Fill Rate K|充气速率系数
+Filled lines|填充线
+Filter Type|过滤类型
+Final Blur Original Scalar|最终原图模糊系数
+Final Blur Scalar|最终模糊系数
+Final Scalars|最终系数
+Fine active|精细网格活动数量
+Fine Dispatch|精细网格调度
+Fine Dispatch Readback|精细网格调度回读
+Fine List|精细网格列表
+Fine Tile Mask|精细瓦片掩码
+Fine tiles X|精细瓦片 X 数量
+Flame graph|火焰图
+Foam amount|泡沫量
+Follow a vehicle to enable debug spawner|跟随一艘载具后可启用调试生成器
+Forced level (-1 automatic)|强制层级（-1 为自动）
+Forward X|前向 X
+Forward Y|前向 Y
+Forward Z|前向 Z
+Fragmentation:|碎片化程度：
+Frame tree|帧调用树
+Frustum culling|视锥剔除
+Full-resolution coverage:|全分辨率覆盖率：
+galactic centre|银河中心
+GPU timings (rolling avg)|GPU 耗时（滚动平均）
+Grab Facing Bias|抓握朝向偏置
+Grab Reach Radius|抓握可及半径
+Gradient Falloff Power|梯度衰减指数
+Grid Spacing|网格间距
+Grid|网格
+Ground Material|地面材质
+Ground Normal Half Life|地面法线半衰期
+Ground Shrug Accel (m/s^2)|地面脱离加速度（m/s²）
+Group cursors|分组游标
+Group segments/frame|每帧分组分段数
+Grouped emitters|已分组发射器
+Hapke Mean Albedo|Hapke 平均反照率
+Idle Speed Threshold|静止速度阈值
+Individual overlap fraction|单个重叠比例
+Initial min distance|初始最小距离
+Inner Angle|内锥角
+Inner Glow Radius Multiplier|内层光晕半径倍率
+Inner Noise Amplitude|内部噪声振幅
+Inner Noise Frequency|内部噪声频率
+Inner Noise Octaves|内部噪声叠加层数
+Inner Noise Persistence|内部噪声持续率
+Inner Sun Color Scalar|太阳内层颜色系数
+Inscatter scale|内散射缩放
+Intensity (km^-1)|强度（km⁻¹）
+Intensity A|强度 A
+Intensity B|强度 B
+Intensity Min/Max|强度最小/最大值
+Interpolate shape with neighbours|与相邻项插值形状
+Irradiance Maps|辐照度贴图
+Join radius fraction|连接半径比例
+Jump Chain:|连续跳跃：
+Jump Land Bounce Ignore|跳跃着地弹跳忽略时间
+Jump Land Duration|跳跃着地动画时长
+Kernel Size|核尺寸
+Ladder Climb Speed|梯子攀爬速度
+Ladder Eye Pitch|攀爬时视线俯仰
+Ladder Max Correction Rate|梯子最大修正角速度
+Ladder Max Correction Speed|梯子最大修正速度
+Ladder Nominal Speed|梯子标称速度
+Ladder Park Time|梯子静止驻留时间
+Ladder Standoff|梯子物理偏离距离
+Ladder Transition Time|梯子切换时间
+Ladder Visual Standoff|梯子视觉偏离距离
+Landing Assist Impulse Factor|着陆辅助冲量系数
+Landing Assist Time|着陆辅助时间
+Layer settings|图层设置
+Leak Fraction|泄漏比例
+Life (s)|寿命（s）
+Life Intensity Exponent|寿命强度指数
+Lifespan (min/max)|寿命（最小/最大）
+Liftoff Grace Time|离地宽限时间
+Light distance (m)|灯光距离（m）
+Light Eval Counts|灯光求值次数
+Light Samples|灯光采样数
+Light Type|灯光类型
+Live State (one frame lagged)|实时状态（延迟一帧）
+Manual Irregularity Curve|手动不规则度曲线
+Manual Specular Curve|手动高光曲线
+Material Texture Tiling|材质纹理平铺
+Material Tiling|材质平铺
+Max dent depth|最大凹陷深度
+Max Ground Lean (deg)|最大地面倾斜（°）
+Max Particles|最大粒子数
+Max Penumbra (Meters)|最大半影宽度（m）
+Max Pressure|最大压力
+Max Pressure (Pa)|最大压力（Pa）
+Max Pressure Gate|最大压力门槛
+Max radius|最大半径
+Max Rotation (Degrees)|最大旋转（°）
+Max Scale|最大缩放
+Max segment length|最大分段长度
+Max Shadow Distance|最大阴影距离
+Max shadows altitude (km)|最大阴影高度（km）
+Max slope|最大坡度
+Max Step Size (m)|最大步长（m）
+Maximum automatic level|最大自动层级
+Maximum Height (m)|最大高度（m）
+Mean Slope Roughness (deg)|平均坡度粗糙度（°）
+Merge distance (spacings)|合并距离（间距倍数）
+Merge Radius Bounding Sphere Fraction|合并半径与包围球比例
+Merge Radius Min (m)|最小合并半径（m）
+Merge spacing fraction|合并间距比例
+Mesh Deformation Editor|网格变形编辑器
+Mesh Id|网格 ID
+Min Attractor Fill Scale|吸引场最小充气缩放
+Min expanded segment length|最小展开分段长度
+Min gap|最小间隙
+Min Inflated Accel|最小充气加速度
+Min inward component|最小向内分量
+Min Penumbra (Meters)|最小半影宽度（m）
+Min Pressure (Pa)|最小压力（Pa）
+Min radius|最小半径
+Min Rotation (Degrees)|最小旋转（°）
+Min Scale|最小缩放
+Minimum distance|最小距离
+Minimum Height (m)|最小高度（m）
+Mmu Facing Rate Limit|载人机动装置朝向角速度上限
+Moonwalk Full Gravity|月面步态全权重重力值
+Moonwalk Playback Scale|月面步态播放缩放
+Moonwalk Run Nominal Speed|月面跑步标称速度
+Moonwalk Start Gravity|月面步态起始重力值
+Moonwalk Walk Nominal Speed|月面步行标称速度
+Mortar Velocity (m/s)|弹射速度（m/s）
+Motionless Time|静止时间
+Neighbor Canopy Proxy Scale|相邻伞面碰撞代理缩放
+Noise Dispersal Rate (1/s)|噪声扩散率（1/s）
+Noise Repetitions Per Radius|每半径噪声重复次数
+Noise Rise Speed (periods/s)|噪声上升速度（周期/s）
+Noise Scale (m)|噪声尺度（m）
+Noise scroll speed (m/s)|噪声滚动速度（m/s）
+Nominal Swim Anim Speed|游泳动画标称速度
+No Curvature|无曲率
+No Ecotype Selected|未选择生态类型
+No explosion definitions loaded.|未加载爆炸定义。
+No ExplosionVolume templates loaded.|未加载爆炸体积模板。
+No Flash on this explosion.|此爆炸没有闪光。
+No frame captured yet.|尚未捕获帧。
+No frames captured yet.|尚未捕获帧。
+No ground clutter for this planet.|此行星没有地表杂物。
+No kitten currently controlled - showing tunables only.|当前未控制猫咪，仅显示可调整参数。
+No SoundEvent on this explosion.|此爆炸没有声音事件。
+Normal Bias|法线偏移
+Normal Bias World Cap|法线偏移世界空间上限
+Normal Scale|法线缩放
+north galactic pole|银河北极
+Nose-Down:|机头向下：
+Number of Kawase Passes (Requires Rebuild)|Kawase 通道数（需重新构建）
+Object Type Texture Jitter|对象类型纹理抖动
+Object Type Texture Tiling|对象类型纹理平铺
+Ocean Height|海面高度
+Offset:|偏移：
+Offset|偏移
+Outer Angle|外锥角
+Outer Sun Color Scalar|太阳外层颜色系数
+Over budget|超出预算
+Overall Bloom Debug|整体泛光调试
+Particle Extra|粒子附加参数
+Pattern|图案
+Peak At|峰值位置
+Peak Intensity|峰值强度
+Phase|相态
+Phase asymmetry|相函数不对称性
+Pitch Target|俯仰目标
+Pivot Handle|枢轴手柄
+Pixel error|像素误差
+Planet Biome Exporter|行星生物群系导出器
+Planet Index|行星索引
+Planet Map Exporter|行星地图导出器
+Planet:|行星：
+Playback Rate Max|最大播放速率
+Playback Rate Min|最小播放速率
+Prepared voxel cells|已准备的体素单元
+Preset Specular Curve (shared)|预设高光曲线（共用）
+Pressure Gain|压力增益
+Pressure threshold|压力阈值
+Procedural Modifiers|程序生成修正器
+Q Sustain (Pa)|维持充气的动压（Pa）
+Query detailed statistics|查询详细统计
+Query Fragmentation|查询碎片化
+Radial Animation Noise|径向动画噪声
+Radial Noise Amplitude|径向噪声振幅
+Radial Noise Frequency|径向噪声频率
+Radial Noise Power|径向噪声指数
+Radius Noise Amplitude|半径噪声振幅
+Radius Noise Frequency|半径噪声频率
+Radius Noise Octaves|半径噪声叠加层数
+Radius Noise Persistence|半径噪声持续率
+Radius scale|半径缩放
+Range Min/Max|范围最小/最大值
+Rate Deadband X|X 轴角速度死区
+Rate Deadband Y|Y 轴角速度死区
+Rate Deadband Z|Z 轴角速度死区
+Rate Limit|角速度限制
+Raymarching settings|光线步进设置
+Reference Explosion Energy (J)|参考爆炸能量（J）
+Reference Q For Drag|阻尼参考动压
+Reference radius|参考半径
+Registered Shadow Maps|已注册阴影贴图
+Removes every dent on the controlled vehicle.|清除受控载具上的全部凹陷。
+Reset counters|重置计数器
+Reset Peaks|重置峰值
+Ridge Color|山脊颜色
+Ring layout|行星环布局
+Ring Noise Amplitude|环状噪声振幅
+Ring Noise Lateral Frequency|环状噪声横向频率
+Ring Noise Radial Frequency|环状噪声径向频率
+Ring radius (m)|环半径（m）
+Rotation Sample Multiplier|旋转采样倍率
+Run Clip Nominal Speed|跑步动画标称速度
+Run Speed|跑步速度
+Same-altitude multiplier|同高度倍率
+Scale Envelope|缩放包络
+Scale Envelope End|缩放包络终值
+Scale Envelope Peak|缩放包络峰值
+Scale Envelope Peak At|缩放峰值位置
+Scale Envelope Start|缩放包络初值
+Scale Height (km)|标高（km）
+Scoop Field|收集场
+Seated Offset|座位偏移
+Segment Creation|分段生成
+Segment LOD|分段细节层级
+Segment motion|分段运动
+Selected Ecotype:|选定生态类型：
+Self-shadow Samples|自阴影采样数
+Settle Speed Threshold|稳定速度阈值
+Settle Time|稳定时间
+Shadow Atlas|阴影图集
+Shadow Atlas Size|阴影图集尺寸
+Shadow Mode|阴影模式
+Shadow Render|阴影渲染
+Shadow Slots|阴影槽位
+Shape Irregularity|形状不规则度
+Shape over altitude|形状随高度变化
+Shell Thickness (0 = solid)|壳体厚度（0 为实心）
+Simplex Octaves|单纯形噪声叠加层数
+Size (min/max)|尺寸（最小/最大）
+Sleep Energy|休眠能量阈值
+Slope Bias|坡度偏移
+Slope Blend Bias|坡度混合偏移
+Slope Blend Contrast|坡度混合对比度
+Slope Blend Strength|坡度混合强度
+Slope Mask Bias|坡度掩码偏移
+Slope Mask Contrast|坡度掩码对比度
+Slope Mask Strength|坡度掩码强度
+Slope Material|坡面材质
+Slot A|槽位 A
+Slot B|槽位 B
+Sound Event|声音事件
+Sound Id|声音 ID
+south galactic pole|银河南极
+Spawn Count|生成数量
+Spawn Duration|生成持续时间
+Spawn Lights|生成灯光
+Spawn Logic|生成逻辑
+Spawn Mode|生成模式
+Spawn Rate|生成速率
+Spawn test sphere 30m ahead|在前方 30 m 处生成测试球体
+Specular Irradiance|高光辐照度
+Specular|高光
+Spin Arc Limit|旋转弧限制
+Split Far|远端分割
+Split Lambda|分割系数
+Split Near|近端分割
+Split radius fraction|分割半径比例
+Spoke Prominence|径向支撑突出度
+Spoke Reach|径向支撑范围
+Sprite Distance|精灵距离
+Star Sprites|恒星精灵
+Start Falloff (km)|衰减起点（km）
+Step Range|步长范围
+Step Size (m)|步长（m）
+Step Size Distance Scaling|步长距离缩放
+Substep Displacement Fraction|子步长位移比例
+Sun Angular Size|太阳角直径
+Sun Glow|太阳光晕
+Sun Glow Intensity Scale|太阳光晕强度缩放
+Sun Inner and Outer Glow Radius Scale|太阳内外光晕半径缩放
+Sun Shadow Debug|太阳阴影调试
+Sunbloom and Lens Flare Debug|太阳泛光与镜头光晕调试
+Support Ratio:|支撑比例：
+Swim Acceleration|游泳加速度
+Swim Angular Budget Factor|游泳角运动预算系数
+Swim Blend Full Speed|游泳全权重速度
+Swim Blend Half Life|游泳混合半衰期
+Swim Blend Target:|游泳混合目标：
+Swim Enter Support Ratio|进入游泳的支撑比例
+Swim Exit Support Ratio|退出游泳的支撑比例
+Swim Eye Pitch Factor|游泳视线俯仰系数
+Swim Fast Speed|快速游泳速度
+Swim Park Time|游泳驻留时间
+Swim Speed|游泳速度
+Swim Tilt Half Life|游泳倾角半衰期
+Swim Tilt High (deg)|游泳高速度倾角（°）
+Swim Tilt High Speed|游泳高倾角对应速度
+Swim Tilt Low (deg)|游泳低速度倾角（°）
+Swim Tilt Low Speed|游泳低倾角对应速度
+Swim Tilt Target:|游泳目标倾角：
+Swim Upright Half Life|游泳直立半衰期
+Swim Vertical Damping|游泳垂直阻尼
+Terrain Contact:|地形接触：
+Tessellation edge length pixels|曲面细分边长（像素）
+Tessellation range meters|曲面细分范围（m）
+Test grid|测试网格
+Texel World Size|世界空间纹素尺寸
+Texture UV|纹理 UV
+Threshold Blur Settings|阈值模糊设置
+Tile Depth|瓦片深度
+Tile Z-Mask|瓦片 Z 掩码
+Time Scale|时间缩放
+Tip Over Tilt (deg)|倾倒阈值（°）
+Traction Friction Coeff|牵引摩擦系数
+Traction Pair Friction|牵引接触对摩擦
+Traction Time Constant|牵引时间常数
+Transparency depth (m)|透明深度（m）
+Tumble Airborne Exit Time|翻滚转离地时间
+Tumble Face Down Friction Factor|面朝下翻滚摩擦系数
+Tumble Nominal Speed|翻滚标称速度
+Tumble Speed Gate|翻滚速度门槛
+Tumble Traction Pair Friction|翻滚牵引接触摩擦
+UI Coverage Mask|界面覆盖掩码
+Update Kawase Pass/Limit (Causes Rebuild)|更新 Kawase 通道/限制（重新构建）
+Upload queue:|上传队列：
+Upload throughput:|上传吞吐量：
+Uploaded this frame|本帧已上传
+Upright Deadband (deg)|直立死区（°）
+Upright Half Life|直立半衰期
+Use auto-generated curve|使用自动生成曲线
+Use Object Type Texture|使用对象类型纹理
+Use preset specular curve|使用预设高光曲线
+Use Scale Factor (Requires Rebuild)|使用缩放系数（需重新构建）
+Valley Color|山谷颜色
+Velocity Drag (1/s at sea level)|速度阻尼（海平面 1/s）
+Velocity Response|速度响应
+Velocity Shift|速度偏移
+Verlet Steps|Verlet 步数
+Vertex Motion|顶点运动
+View Depth Padding|视图深度留量
+Visual settings|视觉设置
+Volume Cache|体积缓存
+Volume cache atlas memory|体积缓存图集内存
+Volume cache selection|体积缓存选择
+Volumetric renderer|体积渲染器
+Volumetric Rendering|体积渲染
+Voxel data|体素数据
+Voxel grid|体素网格
+Voxel Stats|体素统计
+VRAM Buffers|显存缓冲区
+Vulkan Dynamic Depth Bias|Vulkan 动态深度偏移
+Vulkan Dynamic Slope Bias|Vulkan 动态坡度偏移
+Walk Clip Nominal Speed|步行动画标称速度
+Walk Speed|步行速度
+Warp Suppression Threshold|时间加速抑制阈值
+Wavelength persistence|波长持续率
+XML Tree|XML 树
+Zero Targets|清零目标

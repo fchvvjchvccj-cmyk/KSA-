@@ -1,0 +1,14 @@
+﻿{
+    "result":  "passed",
+    "powershellVersion":  "5.1.22621.6133",
+    "installationHashesMatch":  true,
+    "repeatedInstall":  true,
+    "unknownFileProtectedWithoutChanges":  true,
+    "wrongVersionRejectedWithoutChanges":  true,
+    "corruptedDeltaRejectedWithoutChanges":  true,
+    "originalRestore":  true,
+    "addedFilesRemovedOnRestore":  true,
+    "saveUnchanged":  true,
+    "gameExecutableCopiedOrStarted":  false,
+    "manifestSha256":  "70013f5fc8285a70796ca0fd8c8cdd17cf50e5ab347a1770065464075432afad"
+}

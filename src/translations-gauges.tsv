@@ -1,0 +1,145 @@
+Altitude at Apoapsis|远拱点高度
+Altitude at Periapsis|近拱点高度
+Balanced Attitude Control Profile. Medium speed, accuracy, and propellant burn.|均衡姿态控制方案：转向速度、精度和推进剂消耗均为中等。
+Convert this parent departure burn into a vehicle transfer flight plan.|将主天体出发机动转换为载具转移飞行计划。
+Current engine throttle setting in percent.|当前发动机节流百分比。
+Current relative distance to the target.|当前与目标的相对距离。
+Current relative velocity to the target.|当前与目标的相对速度。
+Decrease Normal Delta-V by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长减小法向 Δv。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Decrease Outward (radial) Delta-V by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长减小径向向外 Δv。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Decrease Prograde Delta-V by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长减小顺行 Δv。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Decrease the step size used by the Prograde/Normal/Outward/Time steppers. Hold Shift to jump to the previous order of magnitude.|减小顺行、法向、径向和时间调整的步长。按住 Shift 可降低一个数量级。
+Delete the planned burn.|删除计划中的点火机动。
+Delete this burn.|删除此点火机动。
+Delta-V remaining on the planned burn.|计划机动的剩余 Δv。
+Disable autopilot control|关闭自动驾驶控制
+Disables auto trim: attitude inputs pass straight through.|关闭自动配平：姿态输入直接作用于载具。
+Distance at the closest approach to the target.|最近接近目标时的距离。
+Elapsed game time.|已用游戏时间。
+Enables auto trim: the flight computer damps body rates. Not applicable in View mode.|启用自动配平：飞行计算机抑制载具角速度。视角控制模式下不适用。
+Eva Mode: Direct control. Standard vehicle rotation and translation controls.|舱外活动模式：直接控制，使用标准载具旋转和平移按键。
+Eva Mode: View control: view relative controls, Eva Kitten auto-rotates to camera orientation.|舱外活动模式：视角控制。操作相对于视角，猫咪自动转向摄像机方向。
+Frame of reference fixed to the current target direction.|固定于当前目标方向的参考系。
+Frame of reference fixed to the next planned burn direction.|固定于下一次计划机动方向的参考系。
+Frame of reference fixed to the orbital horizon.|固定于轨道地平线的参考系。
+Frame of reference fixed to the orbital velocity of your vehicle.|固定于载具轨道速度方向的参考系。
+Frame of reference fixed to the surface of the planet.|固定于行星表面的参考系。
+Game Speed.|游戏速度。
+Hold rotation rate in the BURN frame of reference. NOTE: RCS alone cannot perfectly cancel all rotation.|在机动参考系（BURN）中保持角速度。注意：仅靠 RCS 无法完全抵消所有旋转。
+Hold rotation rate in the ORBT frame of reference. NOTE: RCS alone cannot perfectly cancel all rotation.|在轨道参考系（ORBT）中保持角速度。注意：仅靠 RCS 无法完全抵消所有旋转。
+Hold rotation rate in the OVEL frame of reference. NOTE: RCS alone cannot perfectly cancel all rotation.|在轨道速度参考系（OVEL）中保持角速度。注意：仅靠 RCS 无法完全抵消所有旋转。
+Hold rotation rate in the STAR frame of reference. NOTE: RCS alone cannot perfectly cancel all rotation.|在恒星参考系（STAR）中保持角速度。注意：仅靠 RCS 无法完全抵消所有旋转。
+Hold rotation rate in the SURF frame of reference. NOTE: RCS alone cannot perfectly cancel all rotation.|在表面参考系（SURF）中保持角速度。注意：仅靠 RCS 无法完全抵消所有旋转。
+Hold rotation rate in the TGT frame of reference. NOTE: RCS alone cannot perfectly cancel all rotation.|在目标参考系（TGT）中保持角速度。注意：仅靠 RCS 无法完全抵消所有旋转。
+How long the planned burn will take.|计划点火机动的持续时间。
+Ignites the engines.|点火启动发动机。
+Increase Normal Delta-V by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长增大法向 Δv。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Increase Outward (radial) Delta-V by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长增大径向向外 Δv。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Increase Prograde Delta-V by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长增大顺行 Δv。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Increase the step size used by the Prograde/Normal/Outward/Time steppers. Hold Shift to jump to the next order of magnitude.|增大顺行、法向、径向和时间调整的步长。按住 Shift 可提高一个数量级。
+Inertial frame of reference fixed to the distant stars.|固定于遥远恒星的惯性参考系。
+Move the burn earlier by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长提前机动。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Move the burn later by the current step size. Hold Shift for 10x, Ctrl for 0.1x.|按当前步长推迟机动。按住 Shift 为 10 倍，Ctrl 为 0.1 倍。
+Move the burn one orbit earlier. Hold Shift for 10 orbits.|将机动提前一个轨道周期。按住 Shift 提前 10 个周期。
+Move the burn one orbit later. Hold Shift for 10 orbits.|将机动推迟一个轨道周期。按住 Shift 推迟 10 个周期。
+Negative Delta Velocity. Nose points away from the burn direction. Up points inside orbit.|负向速度增量：机头朝向机动反方向，上方向指向轨道内侧。
+Null out roll rate only.|仅消除滚转角速度。
+Orbit Anti-Normal. Nose points away from angular momentum vector. Up points outside orbit.|轨道反法向：机头朝向角动量反方向，上方向指向轨道外侧。
+Orbit Normal. Nose points towards angular momentum vector. Up points outside orbit.|轨道法向：机头朝向角动量方向，上方向指向轨道外侧。
+Orbital Horizon Ahead. Nose points towards approaching orbital horizon. Up points away from the surface.|前方轨道地平线：机头朝向前方地平线，上方向背离表面。
+Orbital Horizon Behind. Nose points towards receding orbital horizon. Up points away from the surface.|后方轨道地平线：机头朝向后方地平线，上方向背离表面。
+Pitch Rate|俯仰角速度
+Point the up vector according to the selected target.|使上方向朝向所选目标。
+Point the up vector opposite of the selected target.|使上方向背离所选目标。
+Positive Delta Velocity. Nose points towards the burn direction. Up points outside orbit.|正向速度增量：机头朝向机动方向，上方向指向轨道外侧。
+Prograde. Nose points towards orbital velocity. Up points outside orbit.|顺行：机头朝向轨道速度方向，上方向指向轨道外侧。
+Propellant Mass|推进剂质量
+Radial Inward. Nose towards the surface. Up points towards approaching orbital horizon.|径向向内：机头朝向表面，上方向指向前方轨道地平线。
+Radial Outward. Nose points away from the surface. Up points towards receding orbital horizon.|径向向外：机头背离表面，上方向指向后方轨道地平线。
+Relaxed Attitude Control Profile. Low speed, accuracy, and propellant burn.|宽松姿态控制方案：较低的转向速度、精度和推进剂消耗。
+Retrograde. Nose points away from orbital velocity. Up points outside orbit.|逆行：机头朝向轨道速度反方向，上方向指向轨道外侧。
+Roll Rate|滚转角速度
+Sets the flight computer to automatically execute the planned burn.|设置飞行计算机自动执行计划机动。
+Shuts down the engines.|关闭发动机。
+Speed [/s]|速度［/s］
+Strict Attitude Control Profile. High speed, accuracy, and propellant burn.|严格姿态控制方案：较高的转向速度、精度和推进剂消耗。
+Surface Backward. Nose points away from surface-relative velocity. Up points towards the surface.|表面后向：机头朝向表面相对速度的反方向，上方向朝向表面。
+Surface Downward. Nose points towards the surface. Up points away from the surface-relative velocity.|表面向下：机头朝向表面，上方向背离表面相对速度。
+Surface Forward. Nose points toward surface-relative velocity. Up points away from the surface.|表面前向：机头朝向表面相对速度方向，上方向背离表面。
+Surface Upward. Nose points away from the surface. Up points towards surface-relative velocity.|表面向上：机头背离表面，上方向朝向表面相对速度。
+Switch Between Universal Time and Mission Elapsed Time.|切换通用时间与任务已用时间。
+Target Alignment. Aligns the vehicle orientation to oppose the target's orientation.|目标对齐：使载具朝向与目标朝向相对。
+Target Anti-Velocity. Nose points opposite the relative velocity to the target. Up points to target's down.|目标反速度：机头朝向相对目标速度的反方向，上方向朝向目标的下方。
+Target Away. Nose points away from the target. Up points towards the surface.|背离目标：机头背离目标，上方向朝向表面。
+Target Towards. Nose points towards the target. Up points away from the surface.|朝向目标：机头朝向目标，上方向背离表面。
+The universal game time at which this burn's mark (midpoint) occurs.|此机动标记（点火中点）对应的通用游戏时间。
+Thrust-to-weight ratio on the surface of the currently-orbited body.|以当前环绕天体表面的重力计算的推重比。
+Time remaining until this burn's mark (midpoint), relative to now.|从现在到此机动标记（点火中点）的剩余时间。
+Time until the closest approach to the target.|距最近接近目标的时间。
+Time until the planned burn mark, being the required midpoint of the burn.|距计划机动标记的时间，标记对应点火的中点。
+Time when the burn will begin.|点火开始时刻。
+Toggle the Resource Groups window.|切换资源组窗口。
+Toggles the RCS thrusters.|切换 RCS 推进器开关。
+Total Delta-V of this burn.|此次机动的总 Δv。
+Use fine-grained pulses of RCS thrust for manual control.|使用精细的 RCS 脉冲推力进行手动控制。
+Use maximum continuous RCS thrust for manual control.|使用最大的连续 RCS 推力进行手动控制。
+Velocity Inward. Nose points towards inside orbit. Up points towards from orbital velocity.|速度向内：机头朝向轨道内侧，上方向朝向轨道速度方向。
+Velocity Outward. Nose points towards outside orbit. Up points away from orbital velocity.|速度向外：机头朝向轨道外侧，上方向背离轨道速度方向。
+Warp to the next SOI change.|时间加速至下一次引力影响范围变化。
+Warp to the next apoapsis.|时间加速至下一次远拱点。
+Warp to the next periapsis.|时间加速至下一次近拱点。
+Warp to the planned burn time.|时间加速至计划点火时刻。
+Yaw Rate|偏航角速度
+GAME SAVES|游戏存档
+VEHICLE SAVES|载具存档
+LOAD SAVE|加载存档
+OVERWRITE SAVE|覆盖存档
+Kitten Roster|猫咪成员名单
+ROSTER|成员名单
+MEMORIAL|纪念名单
+Auto|自动
+Mixed|混合
+Direct|直接
+Toggle|切换
+Projection|投影
+Rotate|旋转
+Translate|平移
+LOCAL|局部
+FREE|自由
+INHERIT|继承
+ORTHO|正交
+PERSP|透视
+PLACE|放置
+SNAP|吸附
+TRANS|平移
+BIN|回收区
+Camera: Free (click for Orbit)|视角：自由（点击切换环绕）
+Camera: Orbit (click for Free) [|视角：环绕（点击切换自由）［
+ASMB (click for Local)|装配坐标（点击切换局部坐标）
+Local (click for ASMB)|局部坐标（点击切换装配坐标）
+Snap camera to back view|切换至后视图
+Snap camera to bottom view|切换至底视图
+Snap camera to front view|切换至前视图
+Snap camera to left view|切换至左视图
+Snap camera to right view|切换至右视图
+Snap camera to top view|切换至顶视图
+Both fuel ports are on the same part|两个燃料接口位于同一部件上
+Donor and receiver hold different propellants - line won't flow|输出端与输入端的推进剂不同，管线无法输送
+Donor tank is empty - line won't flow until it's fuelled|输出储箱为空，补充燃料后才能输送
+Fuel line endpoints must be on the same vehicle|燃料管线两端必须位于同一载具上
+Fuel line too long:|燃料管线过长：
+That part has no fuel port|该部件没有燃料接口
+These parts already share a fuel line|这些部件之间已有燃料管线
+Cannot save or load a vehicle outside the vehicle editor|只能在载具编辑器中保存或加载载具
+Cannot save or load the game while the vehicle editor is open|载具编辑器打开时无法保存或加载游戏
+A save name needs at least one letter or number|存档名称至少需要一个字母或数字
+Are you sure you want to overwrite save '|确定要覆盖存档“
+Are you sure you want to overwrite saved vehicle'|确定要覆盖已保存的载具“
+Orange Checker|橙色方格
+Orange Checker (Long)|橙色方格（长条）
+Red Checker|红色方格
+Red Stripes|红色条纹
+Tricolor|三色
+White|白色
+Stack Invalid|无效的药柱组合
+Stack invalid:|药柱组合无效：

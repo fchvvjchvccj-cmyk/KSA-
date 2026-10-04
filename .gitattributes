@@ -1,0 +1,14 @@
+* text=auto
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.py text eol=lf
+*.tsv text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.dll binary
+*.gz binary
+# 校验清单、负载、译文源码和报告保留原始字节，防止换行转换破坏哈希。
+manifest.json -text
+payload/** -text
+src/** -text
+reports/** -text

@@ -1,0 +1,366 @@
+File|文件
+Bodies|天体
+Manifest|宇宙清单
+Next|下一个
+Previous|上一个
+Okay|好的
+HUD|仪表
+Hard|硬阴影
+Pcf|平滑阴影（PCF）
+Pcss|软阴影（PCSS）
+RightBracket|]
+LeftBracket|[
+Right Bracket|]
+Left Bracket|[
+Escape|Esc
+Comma|,
+Semicolon|;
+Apostrophe|'
+Sol|太阳
+Set Orbit|设置轨道
+this step:|本时间步：
+worst step:|最差时间步：
+of which|其中
+Pack & Assign|打包并分配
+Upload|上传
+-> Flow separation severity|→ 流动分离程度
+(virtual)|（虚拟）
+active, clusters:|个活动项，聚类数：
+global +|全局 +
+(null)|（空）
+(VK_EXT_memory_budget unavailable: VMA estimates)|（VK_EXT_memory_budget 不可用：使用 VMA 估算）
+/ Max|/ 最大值
+%.1fx median|中位数的 %.1f 倍
+16^3 volume cache atlas slots|16^3 体积缓存图集槽位
+16^3 volume cache capacity|16^3 体积缓存容量
+2D cloud color|二维云颜色
+2D cloud lambertian|二维云朗伯项
+2D Transition End (km)|二维过渡结束距离（km）
+2D Transition Start (km)|二维过渡开始距离（km）
+3D Cascade View (drag to orbit, scroll to zoom)|三维级联视图（拖动环绕，滚轮缩放）
+4^3 volume cache atlas slots|4^3 体积缓存图集槽位
+4^3 volume cache capacity|4^3 体积缓存容量
+8^3 volume cache atlas slots|8^3 体积缓存图集槽位
+8^3 volume cache capacity|8^3 体积缓存容量
+Absorption|吸收
+Acceleration|加速度
+ActiveColor|活动颜色
+Actuate|驱动
+Additive|叠加
+Alloc|分配
+AlwaysOnTop|始终置顶
+Anchor|锚点
+AngularAcceleration|角加速度
+AngularMomentum|角动量
+AngularVelocity|角速度
+Arm|启用
+Author|作者
+Autohide|自动隐藏
+Average|平均值
+Avg|平均值
+Azimuth|方位角
+BackColor|背景颜色
+Binding|绑定
+BindingType|绑定类型
+Biomes|生物群系
+Border|边框
+BorderColor|边框颜色
+Breakdown|明细
+Brightness|亮度
+Budget|预算
+Buffer|缓冲区
+BurnVelocity [ORB]|机动速度［轨道参考系］
+Calls|调用次数
+Canopies|伞面
+CascadeInfo|级联信息
+Catalog|目录
+Charge|充电
+Chest|胸部
+Clusters|聚类
+Columns|列
+Connections|连接
+Contents|内容
+Counters|计数器
+Current|当前
+Curvature|曲率
+Custom|自定义
+Deadband|死区
+Deselect|取消选择
+Detached|已分离
+DisabledColor|禁用颜色
+Disarm|停用
+Dismiss|关闭
+DisplayName|显示名称
+DistancePower|距离指数
+Distortion|畸变
+Draft|草稿
+Drag|拖动
+Draw|绘制
+EccentricAnomaly|偏近点角
+Ecotypes|生态类型
+Elevation|仰角
+EmissiveSize|发光范围
+Emitter|发射器
+End|结束
+EndMeanAnomaly|结束平近点角
+EndTime|结束时间
+EndTrueAnomaly|结束真近点角
+Envelope|包络
+ExitMachNumberWeight|出口马赫数权重
+Expansion|膨胀
+Export|导出
+EYE|视线
+Factor|系数
+FakeCleanBurnInAtmosphere|大气中模拟洁净燃烧
+Feather|羽化
+Fetch|获取
+First|第一个
+Flash|闪光
+Force|力
+Fourth|第四个
+Fragment|片元
+Frames|帧数
+Frequency|频率
+Front|前方
+Gamma|伽马
+Geometry|几何形状
+Gizmo|操纵柄
+Global|全局
+Gravity|重力
+Heatmap|热力图
+Hemisphere|半球
+Hierarchy|层级
+Highlight|高亮
+Histogram|直方图
+Hotkey|快捷键
+Identity|单位变换
+IdleColor|空闲颜色
+Inc|增量
+Info|信息
+Inspector|属性检查器
+INSTANCED|实例化
+Instances|实例数
+Interacting|交互中
+InvDepthRange|深度范围倒数
+Isp|比冲
+JetExpansionWeight|喷流膨胀权重
+Jump|跳跃
+Lacunarity|频率倍增系数
+LAlt|左 Alt
+Last|最后一个
+Lat|纬度
+Latitude|纬度
+Layer|层
+LeadIn|前置段
+LeadOut|后置段
+Lighting|光照
+LMouse|鼠标左键
+LocalPosition|局部位置
+Lock|锁定
+Lon|经度
+Longitude|经度
+Matrices|矩阵
+Mean|平均值
+MeanAnomaly|平近点角
+MiddleRadius|中部半径
+Mie|米氏散射
+Missions|任务
+Mix|混合
+Moons|卫星
+Multiplier|倍率
+MULTISAMPLING|多重采样
+Neck|颈部
+NozzlePressureWeight|喷管压力权重
+objects|个对象
+Octaves|倍频层数
+OffsetUv|UV 偏移
+OrbitVelocity|轨道速度
+Order|顺序
+Original|原始
+Other|其他
+Ozone|臭氧
+Palette|调色板
+Params|参数
+Particle|粒子
+Pause|暂停
+Peak|峰值
+Persistence|持续系数
+PhaseEccentricity|相函数偏心率
+Pivot|枢轴
+Placement|放置
+Point|点
+Prepare|准备
+PrimaryBody|主天体
+Priority|优先级
+Profile|配置
+Pulse|脉冲
+Quadrant|象限
+RadiusWeight|半径权重
+Rainbow|彩虹
+Random|随机
+Rate|速率
+Rayleigh|瑞利散射
+Raymarching|光线步进
+Reaction|反应
+Recalculate|重新计算
+Reference|参考
+RefractionIntensity|折射强度
+Refresh|刷新
+Reroot|重新设定根部件
+Resizing|调整大小中
+ResourceGroup|资源组
+Retract|收回
+Rev|修订
+RMouse|鼠标右键
+Rounding|圆角
+Scatter|散布
+ScatteringBrightness|散射亮度
+Seed|种子
+Segments|段数
+Selected|已选中
+Servos|伺服机构
+Shear|剪切
+Side|侧面
+SizeUv|UV 尺寸
+Smooth|平滑
+Snapping|吸附
+Spacing|间距
+Spawn|生成
+Specialization|专门化
+Spike|尖峰
+Spokes|辐条
+Spot|光斑
+Stabilize|稳定
+Standalone|独立
+Start|开始
+StartMeanAnomaly|开始平近点角
+StartTime|开始时间
+StartTrueAnomaly|开始真近点角
+State|状态
+Statistics|统计
+Steps|步数
+Strength|强度
+Sunrise|日出
+Sunset|日落
+Terminator|晨昏线
+TextColor|文字颜色
+TextScale|文字缩放
+Third|第三个
+Thrusters|推进器
+Timestep|时间步长
+Tint|色调
+Top|顶部
+Transitions|过渡
+TRANSMISSIVE|透射
+Trend|趋势
+TrueAnomaly|真近点角
+Unassigned|未分配
+Underwater|水下
+Undock|解除对接
+Unfiltered|未筛选
+Uniform|均匀
+Updaters|更新器
+Vertex|顶点
+Vertical|垂直
+Visualisation|可视化
+Wave|波浪
+Wind|风
+Wireframe|线框
+Zone|区段
+Zoom|缩放
+Profiler|性能分析器
+Profiler    frame|性能分析器    帧
+CPU Profiler -|CPU 性能分析器 —
+AtmosphericBody|有大气天体
+StellarBody|恒星
+RockyBody|岩质天体
+PlanetaryBody|行星
+Asteroid|小行星
+Asteroids|小行星
+Comet|彗星
+Comets|彗星
+Borisov|鲍里索夫
+Oumuamua|奥陌陌
+added|已添加
+dropped|已丢弃
+merged|已合并
+awaiting|等待中
+Colliders:|碰撞体：
+Terrain:|地形：
+Engines (|发动机（
+engine)|台发动机）
+engines)|台发动机）
+fallback|备用
+Burn [|机动［
+dents|凹陷
+Departure]|离轨］
+ENTRIES|条记录
+ENTRY|条记录
+Frame:|帧：
+items)|个项目）
+KITTEN|只猫咪
+LOST|失联
+m/s SHORT|m/s 缺口
+SHORT|缺口
+ms total|ms 总计
+pinned|已固定
+rects)|个矩形）
+SAVES|份存档
+A/B slot has no explosion selected|A/B 槽位未选择爆炸效果
+Absolute|绝对
+Airborne|离地
+ARRIVING|抵达
+Asleep|休眠
+available|可用
+Awake|活动
+Buttons|按钮
+C/Vel:|接近速度：
+Celestial|天体
+Chutes on|降落伞所在部件
+CLASS|类别
+Coarse|粗略
+CONTINUE|继续
+CORRECTION|修正
+diffuse|漫反射
+Disabled [|已禁用［
+Dock|对接
+Dynamic|动态
+Enable|启用
+Enabled [|已启用［
+Event|事件
+Fine|精细
+Flail|挥动四肢
+fragmented|碎片化
+Frame|参考系
+GET|获取
+Gizmos|操纵柄
+Intro|起始动作
+Ladder|梯子
+Land|着陆
+LEAVING|离开
+Linear|线性
+live|实时
+Mmu|载人机动装置
+Monitor|显示器
+Never|从不
+no controlled vehicle|没有正在控制的载具
+no nearby celestial below camera|摄像机下方没有附近天体
+no nearby celestial to anchor the A/B fire|附近没有可作为 A/B 触发锚点的天体
+no nearby celestial to anchor the camera fire|附近没有可作为摄像机触发锚点的天体
+no system loaded|未加载恒星系
+Nozzle on|喷管所在部件
+open|打开
+Patch|轨道段
+plane|平面
+RCS:|姿态控制推进器：
+Recenter|重新居中
+Renderer|渲染器
+Rightening|恢复直立
+SELECT|选择
+Set as Target|设为目标
+Set Target:|设置目标：
+Smoothstep|平滑阶梯插值
+State:|状态：
+Swimming|游泳
+Tumbling|翻滚
+Window|窗口

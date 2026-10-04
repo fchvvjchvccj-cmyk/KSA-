@@ -1,0 +1,209 @@
+Backward|后向
+RollLeft|向左滚转
+RollRight|向右滚转
+TranslateForward|向前平移
+TranslateBackward|向后平移
+TranslateLeft|向左平移
+TranslateRight|向右平移
+TranslateUp|向上平移
+TranslateDown|向下平移
+CameraUp|视角上移
+CameraDown|视角下移
+Sprint|冲刺
+ToggleUi|切换界面显示
+CameraMode|切换视角模式
+SimSpeedIncrease|提高时间加速倍率
+SimSpeedDecrease|降低时间加速倍率
+SimSpeedDefault|恢复实时模拟
+FieldOfViewIncrease|增大视野角度
+FieldOfViewDecrease|减小视野角度
+ToggleConsole|切换控制台
+ToggleMap|切换地图
+OpenGameSettings|打开游戏设置
+CameraReferenceFrame|切换视角参考系
+VesselNext|下一艘载具
+VesselPrevious|上一艘载具
+CelestialNext|下一个天体
+CelestialPrevious|上一个天体
+ToggleFps|切换帧率显示
+ToggleStabilization|切换姿态稳定
+ToggleManualThrustMode|切换手动推力模式
+ToggleTransferPlan|切换转移规划
+ToggleFlightPlan|切换飞行计划
+MapUp|地图上移
+MapDown|地图下移
+MapLeft|地图左移
+MapRight|地图右移
+MapForward|地图前移
+MapBackward|地图后移
+MapCenter|地图居中
+MapControlVehicleToggle|切换地图载具控制
+ToggleGroundTracking|切换地面轨迹
+MainEngineStartup|启动主发动机
+MainEngineShutdown|关闭主发动机
+MainEngineThrottleUp|增大主发动机节流
+MainEngineThrottleDown|减小主发动机节流
+ToggleEditor|切换载具编辑器
+ToggleResources|切换资源窗口
+ToggleSaveMenu|切换存档菜单
+EditorCameraFocus|编辑器视角聚焦
+ToggleStagingWindow|切换分级窗口
+ToggleEditorPartWindow|切换编辑器部件窗口
+IVASwitchToNextSeat|切换至下一个舱内座位
+ToggleThreadProfiler|切换线程性能分析
+ToggleUniverseManifest|切换宇宙对象列表
+ToggleTargetTracking|切换目标跟踪
+ToggleLights|切换灯光
+EditorPartPitchDown|部件向下俯仰
+EditorPartPitchUp|部件向上俯仰
+EditorYawPartLeft|部件向左偏航
+EditorYawPartRight|部件向右偏航
+EditorRollPartLeft|部件向左滚转
+EditorRollPartRight|部件向右滚转
+EditorResetPartRotation|重置部件旋转
+EditorPlaceMode|部件放置模式
+EditorTranslateMode|部件平移模式
+EditorRotateMode|部件旋转模式
+EditorScaleMode|部件缩放模式
+EditorToggleSymmetry|切换对称
+EditorPrevSymmetryMode|上一个对称模式
+EditorNextSymmetryMode|下一个对称模式
+EditorToggleSnapping|切换吸附
+EditorToggleSymmetryInheritance|切换对称继承
+EditorDelete|删除部件
+EditorDuplicate|复制部件
+EditorToggleFreeCamera|切换编辑器自由视角
+EditorFreeCamUp|编辑器自由视角上移
+EditorFreeCamDown|编辑器自由视角下移
+EditorFreeCamFast|编辑器自由视角加速
+EditorFreeCamSlow|编辑器自由视角减速
+DefaultHUDLayout|默认仪表布局
+PreviousHUDLayout|上一个仪表布局
+NextHUDLayout|下一个仪表布局
+HUDLayout0|仪表布局 0
+HUDLayout1|仪表布局 1
+HUDLayout2|仪表布局 2
+HUDLayout3|仪表布局 3
+HUDLayout4|仪表布局 4
+HUDLayout5|仪表布局 5
+HUDLayout6|仪表布局 6
+HUDLayout7|仪表布局 7
+HUDLayout8|仪表布局 8
+HUDLayout9|仪表布局 9
+Screenshot|截图
+ToggleRCS|切换 RCS
+ToggleKittenRoster|切换猫咪名单
+ToggleCrewAssignment|切换成员分配
+Grab|抓握
+Board|登舱
+Control From Here:|从此处控制：
+Control From Here|从此处控制
+Current State:|当前状态：
+Enter|进入
+Always Check|始终检查
+AUTO GROUPS|自动分组
+Confirm Mods|确认模组
+Context Assignments|上下文分配
+Crew Assignment|成员分配
+Gauge Hierarchy|仪表层级
+Gauge Inspector|仪表检查器
+Kitten Locomotion Tuning|猫咪运动参数
+Parachute Tuning|降落伞参数
+Select Modpack|选择模组包
+Show on Version Change|版本变化时显示
+Mission Elapsed Time|任务已用时间
+Universal Game Time|通用游戏时间
+Thread Profiler|线程性能分析器
+Universe Manifest|宇宙对象列表
+Unknown Canvas|未知画布
+Unnamed Celestial|未命名天体
+Unnamed Ecotype|未命名生态类型
+VERSION HISTORY|版本历史
+Distant Glint Editor|远处反光编辑器
+Explosion Editor|爆炸编辑器
+Particle Emitter Editor|粒子发射器编辑器
+Milky Way|银河
+Sun Flare|太阳光晕
+Asset Loading|正在加载资源
+Build Render Targets|正在构建渲染目标
+Build Viewports|正在构建视口
+Character render resources|角色渲染资源
+Cloud Shadows Renderer|云影渲染器
+Compiling Shaders|正在编译着色器
+Composite Renderer|合成渲染器
+Global Shader Bindings|全局着色器绑定
+Job Systems|任务系统
+Line Renderer|线条渲染器
+Loading Complete|加载完成
+Mesh render system|网格渲染系统
+Ocean renderer|海洋渲染器
+Part Validation|正在验证部件
+Particle Resources|粒子资源
+Planet Renderer|行星渲染器
+Planet Transparencies|行星透明效果
+Populate Sounds|正在加载音效
+Processing Assets|正在处理资源
+Processing Gameplay Data|正在处理游戏数据
+Raytrace Renderer|光线追踪渲染器
+Spherical Billboarding|球面公告板
+Star Binaries|恒星数据文件
+Star Instances|恒星实例
+Volumetric Exhausts|体积尾焰
+Volumetric Plume Trails|体积尾迹
+Color Map|颜色贴图
+Gradient Map|梯度贴图
+Height Map|高度图
+Normal Map|法线贴图
+Surface Map|表面贴图
+Positive X|正 X
+Positive Y|正 Y
+Positive Z|正 Z
+Negative X|负 X
+Negative Y|负 Y
+Negative Z|负 Z
+Simulation x|模拟速度 ×
+Step count|步数
+Step Count|步数
+Sandbox|沙盒模式
+One Frame|1 帧
+Two Frames|2 帧
+Three Frames|3 帧
+Four Frames|4 帧
+Earth and Moon|地球与月球
+Earth Only + Interstellar|仅地球与星际空间
+Solar System + Interstellar|太阳系与星际空间
+Aluminum Alloy 2014|2014 铝合金
+Aluminum Alloy 7075|7075 铝合金
+Aluminum Alloy 8090|8090 铝合金
+Ammonia|氨
+Attitude Indicators|姿态指示仪
+Autopilot Settings|自动驾驶设置
+Boost-Sustain|助推—续航
+Boost-Sustain-Boost|助推—续航—助推
+Burn Control|点火机动控制
+Burn Editor|点火机动编辑器
+Carbon Dioxide|二氧化碳
+Carbon Fiber|碳纤维
+Crew Portraits|成员肖像
+Double-Base|双基推进剂
+Engine Control|发动机控制
+Ethanol + HTP|乙醇与高浓度过氧化氢
+Ethanol + Oxygen|乙醇与氧
+Fiberglass|玻璃纤维
+HTP|高浓度过氧化氢
+Hydrogen + Oxygen|氢与氧
+Hydrogen Plasma|氢等离子体
+Inconel 718|Inconel 718 镍基合金
+Kerosene + Oxygen|煤油与氧
+Kitten Flight Control|猫咪飞行控制
+MMH + NTO|单甲基肼与四氧化二氮
+Maraging Steel 300|300 马氏体时效钢
+Methane + Oxygen|甲烷与氧
+Navball|姿态球
+Neutral|恒速燃烧
+Nitrogen|氮
+Progressive|增速燃烧
+Regressive|减速燃烧
+Rendezvous Control|交会控制
+Stainless Steel 304L|304L 不锈钢
+Titanium Alloy 6-4|6-4 钛合金

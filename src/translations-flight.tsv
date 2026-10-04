@@ -1,0 +1,294 @@
+Snap Anchor|吸附锚点
+Snap Pivot|吸附枢轴
+Soft Shadows|软阴影
+Solid Grain|固体药柱
+Sort by|排序依据
+Specific Heat Ratio|比热比
+Specific Impulse|比冲
+Specific Impulse (Optimum Expansion)|比冲（最佳膨胀）
+Specific Impulse (Sea Level)|比冲（海平面）
+Specific Impulse (Vacuum)|比冲（真空）
+Specific Impulse:|比冲：
+Specific impulse metric at sea level (1013.25 mbar). Specific impulse is a measure of propellant efficiency; higher is better.|海平面（1013.25 mbar）条件下的比冲。比冲衡量推进剂使用效率；数值越高越好。
+Specific impulse metric at the optimum expansion pressure. Specific impulse is a measure of propellant efficiency; higher is better.|最佳膨胀压力下的比冲。比冲衡量推进剂使用效率；数值越高越好。
+Specific impulse metric in a pure vacuum. Specific impulse is a measure of propellant efficiency; higher is better.|完全真空中的比冲。比冲衡量推进剂使用效率；数值越高越好。
+SPEED AFTER|机动后速度
+Speed Control|速度控制
+SPHERE OF INFLUENCE|引力影响范围
+Start altitude (m)|起始高度（m）
+Start fuel|初始燃料
+Start mass|初始质量
+Start Transition|过渡起点
+End fuel|最终燃料
+End mass|最终质量
+End Transition|过渡终点
+ENDS AT|结束时间
+Storage Density|储存密度
+Storage Temperature|储存温度
+Storage Temperature:|储存温度：
+Stored:|已储存：
+Stretch to Canvas|拉伸至画布
+Subsolar Point|太阳直射点
+Sunrise (Post-burn)|日出（机动后）
+Sunrise / Sunset|日出/日落
+Sunset (Post-burn)|日落（机动后）
+Surface Location|表面位置
+Surface Speed:|表面速度：
+SWITCH VEHICLE|切换载具
+Symmetry Inheritance:|对称继承：
+Symmetry:|对称：
+Target of Controlled Vehicle|受控载具的目标
+Target Part|目标部件
+TARGET PERIAPSIS|目标近拱点
+TARGET SPEED|目标速度
+Target Track|目标轨迹
+Targeted Port|选定接口
+Teleport To Apollo 11 Landing Site|传送至阿波罗 11 号着陆点
+Teleport To CCSFS LC-39A|传送至卡纳维拉尔角 LC-39A
+Teleport To Mars|传送至火星
+Teleport To South Pole|传送至南极
+Teleport To VSFB LC-4|传送至范登堡 LC-4
+Teleport To...|传送至…
+Temperature at which the combustion products exit the combustor. Specific impulse is very strongly affected by this temperature; higher is better.|燃烧产物离开燃烧室时的温度。此温度对比冲影响很大；数值越高越好。
+Temperature at which the propellants are burned.|推进剂燃烧时的温度。
+Terrain Height|地形高度
+Terrain LOD|地形细节层级
+Terrain Mode|地形模式
+Terrain Editor|地形编辑器
+Test Fire|试点火
+The actual velocity of the gas exiting the nozzle. Not to be confused with effective exhaust velocity, which is specific impulse times standard gravity.|气体离开喷管时的实际速度。不同于有效排气速度；有效排气速度等于比冲乘以标准重力加速度。
+The atmospheric pressure at which the exhaust from this engine will be optimally expanded. This should be close to the pressure at the altitude where this engine will operate.|发动机尾气达到最佳膨胀时的大气压力，应接近发动机工作高度处的压力。
+The diameter of the nozzle throat. This is the end of the converging section of the nozzle where gas velocity reaches Mach 1.|喷管喉部直径。喉部位于喷管收敛段末端，气体在此达到 1 马赫。
+The game needs to be restarted for the changes to take effect.|需要重启游戏才能使更改生效。
+The grain's initial burning surface is too small to hold a self-sustaining chamber pressure through this nozzle. Raise the initial thrust.|药柱初始燃烧面积过小，无法通过此喷管维持可持续燃烧的燃烧室压力。请提高初始推力。
+The inner diameter of the nozzle exhaust exit plane. Larger engines produce more thrust.|喷管出口截面的内径。较大的发动机可产生更高推力。
+The listed action will toggle this window open and closed.|所列操作可切换此窗口的显示状态。
+The maximum rate of propellant mass that passes through the nozzle.|通过喷管的最大推进剂质量流量。
+The oxidizer-to-fuel mass ratio fed to the combustion chamber.|送入燃烧室的氧化剂与燃料质量比。
+Typical value for this mixture:|此混合物的典型值：
+The pressure inside the combustion chamber at full throttle. Higher pressure produces higher thrust and usually burns more efficiently.|全节流时的燃烧室压力。压力越高，推力越高，燃烧效率通常也更高。
+The pressure of the gas exiting the nozzle.|气体离开喷管时的压力。
+The propellant(s) which this engine burns.|此发动机燃烧的推进剂。
+The ratio of the nozzle exit area to the nozzle throat area.|喷管出口面积与喉部面积的比值。
+The ratio of the nozzle exit area to the nozzle throat area. Higher ratios produce higher specific impulse, but less thrust.|喷管出口面积与喉部面积的比值。较高的面积比可提高比冲，但降低推力。
+The speed at which the burning surface eats into the grain at max chamber pressure. This depends strongly on chamber pressure.|最高燃烧室压力下，燃烧面向药柱内部推进的速度，主要取决于燃烧室压力。
+The temperature of the gas exiting the nozzle.|气体离开喷管时的温度。
+The temperature the thermal core heats the working fluid to. This is set by the heat source, not by the propellant.|热核心将工质加热到的温度，由热源决定，与推进剂无关。
+Then click another part with a fuel port to run a line to it.\nClick empty space to cancel.|然后点击另一个带燃料接口的部件，连接燃料管线。\n点击空白处取消。
+There is no debris in this system|此天体系统中没有碎片
+Thermal Efficiency:|热效率：
+These vehicles have unsaved changes and will be lost when you exit the editor unless you save them:|以下载具有尚未保存的更改；退出编辑器前请保存，否则更改将丢失：
+These vehicles have unsaved changes and will be lost when you start a new vehicle unless you save them:|以下载具有尚未保存的更改；新建载具前请保存，否则更改将丢失：
+This vehicle has no seats.|此载具没有座位。
+Throat Diameter|喉部直径
+Throttle Up/Down|增大/减小节流
+Thrust (Optimum Expansion)|推力（最佳膨胀）
+Thrust (Sea Level)|推力（海平面）
+Thrust (SL)|推力（海平面）
+Thrust (vac)|推力（真空）
+Thrust (Vacuum)|推力（真空）
+Thrust Curve|推力曲线
+Thrust Profile|推力变化曲线
+Thrust Profile:|推力变化曲线：
+Tilt:|倾斜：
+Time (ascending)|时间（升序）
+Time (descending)|时间（降序）
+TIME AT PERIAPSIS|近拱点时刻
+Time Compression|时间加速
+Time held reefed before disreefing.|解除收束前保持收束状态的时间。
+Time Of Approach|接近时刻
+TIME SINCE PE|距通过近拱点
+Time Since Periapsis|距通过近拱点的时间
+Time SOI Encountered|进入引力影响范围的时刻
+Time Speed|时间速度
+Time To Closest Approach|距最近接近
+Time To Encounter|距交会
+Time Until|距
+Time:|时间：
+Toggle Docking Camera|切换对接视角
+Toggle Resource Display|切换资源显示
+Toggle SAS|切换姿态稳定系统
+Top-Down|俯视
+Total Battery Capacity:|总电池容量：
+Total Battery Charge:|总电量：
+TOTAL dV|总 Δv
+Total Mission Elapsed|总任务耗时
+Total Storage Volume:|总储存体积：
+Track Attitude|姿态跟踪
+Track Rate|跟踪速率
+Transfer Planner|转移规划器
+TRANSFER POINT|转移点
+Translate Mode [|平移模式［
+Translation (XYZ)|平移（XYZ）
+TRUE ANOMALY|真近点角
+Turn off Blooms in Game Settings to toggle below|关闭游戏设置中的泛光后，才能切换以下选项
+Type Name|类型名称
+UI Toggle|切换界面显示
+Un-reef|解除收束
+Unburnable Grain:|无法燃烧的药柱：
+UnFocus Camera|取消视角聚焦
+Unlock Cursor|解锁光标
+UNSAVED SETTING CHANGES|尚未保存的设置更改
+UNSAVED VEHICLES|尚未保存的载具
+UPDATE AVAILABLE|有可用更新
+A new update for the game is available. Select an option below if you want to update the game, otherwise select cancel.|游戏有新版本可用。需要更新时请选择下方选项，否则选择取消。
+Check for Update|检查更新
+AVAILABLE VERSION|可用版本
+YOUR VERSION|当前版本
+Used Volume:|已用体积：
+Vehicle Name|载具名称
+Vehicle Save|载具存档
+Vehicle Save/Load|载具保存/加载
+Vel:|速度：
+VESSEL BURNED AWAY|载具已烧毁
+Viewing:|正在查看：
+Viewport Resolution|视口分辨率
+Visualize Fuel Flow|显示燃料流动
+Volume:|体积：
+VRAM Required:|所需显存：
+VRAM total|总显存
+VRAM:|显存：
+Warp To Here|时间加速至此
+Water level (m)|水位（m）
+Water properties|水体属性
+Wave amplitude|波浪振幅
+Wave length (m)|波长（m）
+Wave speed|波速
+When off, nothing can draw propellant from this tank.|关闭后，任何设备都无法从此储箱抽取推进剂。
+When off, this decoupler is inert and hidden from the sequence window.|关闭后，此分离器不会执行动作，并从级序列窗口中隐藏。
+When off, this decoupler will not fire and is hidden from the sequence window.|关闭后，此分离器不会触发，并从级序列窗口中隐藏。
+Which consumer kinds this tank automatically provides propellant for.|此储箱自动为哪些类型的设备供应推进剂。
+Will be saved as "|将保存为“
+Will create a new save of the current state with the given name|使用指定名称将当前状态保存为新存档
+Wind direction|风向
+Wind directionality|风向集中度
+Wind noise scale|风噪声尺度
+Wind speed|风速
+Wind speed (m/s)|风速（m/s）
+Wind waves|风浪
+Won't ignite: pressure at ignition (|无法点火：点火压力（
+XML copied to clipboard.|XML 已复制到剪贴板。
+Copy To Clipboard|复制到剪贴板
+Copy XML|复制 XML
+Copy XML to Clipboard|将 XML 复制到剪贴板
+Copy the current selection to the clipboard as XML|将当前选中内容以 XML 格式复制到剪贴板
+Copy Tree|复制树
+Y Axis:|Y 轴：
+Z Axis:|Z 轴：
+Yaw Target|偏航目标
+You have unsaved changes which will not be applied, do you want to discard these?|尚有未应用的更改，要放弃这些更改吗？
+You must be in the Vehicle Editor|需要在载具编辑器中操作
+You must be in the Vehicle Editor to save a vehicle|需要在载具编辑器中保存载具
+You must not be in the Vehicle Editor|需要退出载具编辑器后操作
+Launch|发射
+Launchpad|发射台
+Launch Pad|发射台
+Launch Vehicle|发射载具
+Vehicle Editor|载具编辑器
+Saved Vehicles|已保存载具
+Saved Games|游戏存档
+Layouts|布局
+Layout|布局
+Default|默认
+Date|日期
+Size|尺寸
+Filename|文件名
+File Name|文件名
+Description|说明
+Version|版本
+Update|更新
+Restart|重启
+Reload|重新加载
+Exit|退出
+EXIT ANYWAY|仍然退出
+Yes|是
+No|否
+OK|确定
+Confirm|确认
+Search|搜索
+Filter|筛选
+Sort|排序
+Remove|移除
+Add|添加
+Edit|编辑
+Copy|复制
+Paste|粘贴
+Duplicate|复制副本
+Rename|重命名
+Reset Layout|重置布局
+Save As|另存为
+Telemetry|遥测
+Orbit|轨道
+Body|天体
+Position|位置
+Rotation|旋转
+Scale|缩放
+Translation|平移
+Speed|速度
+Angle|角度
+Period|周期
+Distance|距离
+Ap|远拱点
+Pe|近拱点
+TWR|推重比
+SAS|姿态稳定
+RCS|姿态控制推进器
+Prograde/Retrograde|顺行/逆行
+Fuel|燃料
+Oxidizer|氧化剂
+Fuel Type|燃料类型
+Motor|发动机
+Solid|固体
+Liquid|液体
+Gas|气体
+Vacuum Thrust|真空推力
+Sea Level Thrust|海平面推力
+Auto Burn|自动点火
+Auto Warp|自动时间加速
+Burn Duration|点火时长
+Departure|出发
+Arrival|抵达
+Encounter|交会
+Intercept|交会
+Impact|撞击
+Debris|碎片
+Recover|回收
+Abandon|放弃
+Destroyed|已损毁
+Stable|稳定
+Active|活动
+Inactive|非活动
+Armed|已待命
+Deploy|展开
+Deployed|已展开
+Cut|切断
+Deploying|展开中
+Canopy|伞面
+Chute|降落伞
+Line|管线
+Flow|流动
+Locked|已锁定
+Unlocked|已解锁
+Connected|已连接
+Disconnected|未连接
+Symmetry|对称
+Radial Symmetry|径向对称
+Mirror Symmetry|镜像对称
+Part|部件
+Subpart|子部件
+Subparts|子部件
+Connector|连接器
+Control Point|控制点
+Alignment|对齐
+Actions|动作
+Action|动作
+Visible|可见
+Visibility|可见性
+Color|颜色
+Opacity|不透明度
+Width|宽度
+Height|高度
+Length|长度
+Diameter|直径
+Count|数量
+Enabled? |启用？
