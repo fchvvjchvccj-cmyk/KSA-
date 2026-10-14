@@ -1,22 +1,22 @@
 {
-  "gameBuild": "2026.10.7.5541",
-  "translatedEntries": 3566,
-  "nativeEntries": 206,
+  "gameBuild": "2026.10.13.5602",
+  "translatedEntries": 3670,
+  "nativeEntries": 213,
   "originalHashes": {
-    "Brutal.ImGui.dll": "9040dc5d410043c53dbea10d94995b6712240be37f9251b016f6cff66a76339f",
-    "KSA.deps.json": "23fcaa825c40f828349310c8dc480f292f9be65de6c4d378b36fba64f7ee37b3",
-    "KSA.dll": "5e47d0374d82a409a08b8f134e57b38af7f64e19d2ea9b54a17cadfce90305df",
+    "Brutal.ImGui.dll": "ad97d91c407260c6297e6f2a2a05248f482502c487c645911d57abe56400178b",
+    "KSA.deps.json": "11285167633b19d0c21148b4ddeb8cc563073b0257883d60445d8e02a35669a1",
+    "KSA.dll": "94f6291754dffe24d18d2eef5cd925a2baa9d72fbdaef1c24182f08065348380",
     "Content/Core/Languages.xml": "f28817ffc576125963a86d778b9b630194c137de46653a3458eb192ad2e439ec"
   },
   "patchedHashes": {
     "Brutal.ImGui.dll": "4c892ee540b52399184a4d0629c7ebbcd69954cd028283f25abb34bd91341063",
-    "KSA.deps.json": "50766829d525a6a0ef6171ac4b2bf0312436fb856747191b2eacc9200e00953d",
-    "KSA.dll": "f6a20ca678f169930d4f4614fd44866223e97c605af0e1aeed1df516bb93c4d7",
-    "KsaChinese.dll": "5264cd716eed13cd6f765bdfb8b774cfa7444afb5255c47aa6b1bbe7993b3ba2",
+    "KSA.deps.json": "b785de86c5cd34d572594fc7636f57453bb2b08351a0e39645a61ce27f4f7714",
+    "KSA.dll": "a2f31a6ddfdf7dceda32a58c2e701bd18b7c26fe7688c4103bbd6efb45d47c51",
+    "KsaChinese.dll": "591b63cbc445d5192c24e92bc18dcd25e5428cbd42fbaeadebda03b391daf9bc",
     "localization-language.txt": "67041b817c0b38645c8b100c37ebc2e0da3858fbb32faa4c338621794a666eba",
     "Content/Core/Languages.xml": "5d3689757352715d71f21d1a61e87f672ba5cee46f8d1fd81a6855509245a853",
-    "Content/Core/Languages/zh-Hans.resx": "664a12a46ca00ab5191d4fd7ac26cf856a04bd565273928a8104f0ef5a3a067b",
-    "Content/Core/Languages/zh-Hans.ui.json": "6b5a57920c29934729495a19c7fb856a056a4976295c03e3af0f5a9b94a34aa7"
+    "Content/Core/Languages/zh-Hans.resx": "7b86e64decc233916638ef0f35150033c61432d3c4440c7dc4abce022804206d",
+    "Content/Core/Languages/zh-Hans.ui.json": "a845cafb6d8fcc9ee16c158f7807755e27513433774a63775f958fa1f9624f96"
   },
   "files": {
     "KsaChinese.dll": "payload/KsaChinese.dll",
@@ -31,11 +31,11 @@
     },
     "KSA.deps.json": {
       "path": "patches/KSA.deps.json.ksadelta.gz",
-      "sha256": "d953f416ede0fb683741a9463a3121da94f6ad69113ed2774f10e60604774e15"
+      "sha256": "0139f105c979fe0d35ed70cfd84603c922313fcd87c5719bde4fc4f097a00b5b"
     },
     "KSA.dll": {
       "path": "patches/KSA.dll.ksadelta.gz",
-      "sha256": "0ee8dff231783a26ea32444aba75471f9199b79361e8c2ae630a3236a1564c77"
+      "sha256": "e3a47c925bd73754b7c4fc466fbffab6617c52e7dd45962a2e20176f4b0574a8"
     },
     "Content/Core/Languages.xml": {
       "path": "patches/Content__Core__Languages.xml.ksadelta.gz",

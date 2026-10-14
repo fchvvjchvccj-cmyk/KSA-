@@ -114,6 +114,17 @@ def main():
     (ROOT / 'reports').mkdir(exist_ok=True)
     for name in ('运行检查.json', '部件覆盖报告.json', '描述覆盖报告.json'):
         shutil.copyfile(source / '汉化补丁' / name, ROOT / 'reports' / name)
+    # 版本与画面报告只发布验证结论，不携带本机备份路径或安装日志位置。
+    adaptation = json.loads((source / '汉化补丁/版本适配报告.json').read_text(encoding='utf-8'))
+    for key in ('installerLog', 'previousVersionBackup'):
+        adaptation.pop(key, None)
+    adaptation['visualScope'] = '仅观察启动配置窗口，尚未验证新版游戏内画面。'
+    (ROOT / 'reports/version-adaptation.json').write_text(
+        json.dumps(adaptation, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    visual = json.loads((source / '汉化补丁/画面检查.json').read_text(encoding='utf-8'))
+    visual['scope'] = adaptation['visualScope']
+    (ROOT / 'reports/visual-verification.json').write_text(
+        json.dumps(visual, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
 if __name__ == '__main__':

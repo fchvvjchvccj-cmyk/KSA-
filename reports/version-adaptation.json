@@ -1,0 +1,27 @@
+{
+  "gameBuild": "2026.10.13.5602",
+  "previousGameBuild": "2026.10.7.5541",
+  "assemblyVersion": "2026.10.13.5602",
+  "targetFrameworks": [
+    ".NETCoreApp,Version=v10.0"
+  ],
+  "managedArtifactEvidenceId": "ev_a60c72148fdd1b53cc3df5367bcfc32f03c8c730a8313bb3fa026053626fef8f",
+  "managedMetadataCoverage": {
+    "issues": [],
+    "state": "complete"
+  },
+  "newDictionaryEntries": 104,
+  "previousTranslationsPreserved": true,
+  "newNativeEntries": 7,
+  "newPart": "CoreStructuralA_Prefab_StrutD",
+  "newPartTranslation": "支撑杆 D",
+  "newUtf8UiCandidatesMissingTranslations": [],
+  "crossBuildHashesAccepted": false,
+  "visualScope": "仅观察启动配置窗口，尚未验证新版游戏内画面。",
+  "reproducibleBuildVerified": true,
+  "runtimeChecks": {
+    "zh-Hans": 1270,
+    "en-US": 1270
+  },
+  "installedFilesMatchManifest": true
+}

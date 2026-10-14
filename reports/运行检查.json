@@ -1,8 +1,8 @@
 {
   "modes": {
-    "en-US": 1076,
-    "zh-Hans": 1076
+    "en-US": 1270,
+    "zh-Hans": 1270
   },
-  "dictionarySha256": "6b5a57920c29934729495a19c7fb856a056a4976295c03e3af0f5a9b94a34aa7",
+  "dictionarySha256": "a845cafb6d8fcc9ee16c158f7807755e27513433774a63775f958fa1f9624f96",
   "result": "passed"
 }
