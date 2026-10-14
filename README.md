@@ -6,6 +6,8 @@
 
 ## 下载与安装
 
+可从 [Releases](https://github.com/fchvvjchvccj-cmyk/KSA-Chinese-Localization/releases) 下载完整汉化 ZIP。Release 名称和标签均采用对应的游戏官方版本号；请按已安装的游戏版本选择，旧版补丁仍可下载。
+
 1. 先保存进度并正常退出游戏，确认你使用的是 **2026.10.13.5602**。
 2. 在本页点击 **Code → Download ZIP**，下载后**完整解压**到一个可写入的文件夹。不要在压缩包里直接运行，也不要只下载某一个文件。
 3. 双击解压目录中的 **`简体中文启动.cmd`**。
