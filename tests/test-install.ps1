@@ -10,6 +10,10 @@ $remembered = Join-Path $root '.install-path.txt'
 $hadRemembered = Test-Path -LiteralPath $remembered
 $rememberedBytes = $null
 if ($hadRemembered) { $rememberedBytes = [IO.File]::ReadAllBytes($remembered) }
+$supportMarker = Join-Path $root '.support-viewed'
+$hadSupportMarker = Test-Path -LiteralPath $supportMarker
+$supportMarkerBytes = $null
+if ($hadSupportMarker) { $supportMarkerBytes = [IO.File]::ReadAllBytes($supportMarker) }
 function Get-TestHash([string]$path) { return (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant() }
 function Get-Snapshot {
     $result = @{}
@@ -33,6 +37,8 @@ function Expect-Rejection([scriptblock]$action, [string]$message) {
 }
 New-Item -ItemType Directory -Path $fixture | Out-Null
 try {
+    # 后台安装测试模拟已看过提示，避免在用户桌面弹出窗口。
+    [IO.File]::WriteAllText($supportMarker, (Get-TestHash (Join-Path $root '给我打赏一点吧，汉化不易.jpg')).ToUpperInvariant())
     foreach ($property in $manifest.originalHashes.PSObject.Properties) {
         $source = Join-Path $OriginalDirectory $property.Name
         if ((Get-TestHash $source) -ne $property.Value) { throw "原始测试文件校验失败：$($property.Name)" }
@@ -90,6 +96,8 @@ try {
     } | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $root 'reports/distribution-tests.json') -Encoding UTF8
     Write-Output '差分安装、重复安装、文件保护、版本检查、损坏补丁拒绝和完整还原：全部通过。'
 } finally {
+    if ($hadSupportMarker) { [IO.File]::WriteAllBytes($supportMarker, $supportMarkerBytes) }
+    elseif (Test-Path -LiteralPath $supportMarker) { Remove-Item -LiteralPath $supportMarker }
     if ($hadRemembered) { [IO.File]::WriteAllBytes($remembered, $rememberedBytes) }
     elseif (Test-Path -LiteralPath $remembered) { Remove-Item -LiteralPath $remembered }
     # 删除前再次确认测试目录仅位于本机临时目录下。

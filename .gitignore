@@ -3,6 +3,7 @@ Kitten Space Agency/
 汉化备份/
 .ksa-zh-backup/
 .install-path.txt
+.support-viewed
 logs/
 tests/fixtures/
 __pycache__/

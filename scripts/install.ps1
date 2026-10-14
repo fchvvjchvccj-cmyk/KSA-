@@ -155,6 +155,9 @@ namespace KsaPatch {
         foreach ($relative in $expected.Keys) {
             if ((Get-Hash (Get-SafePath $stage $relative)) -ne $expected[$relative]) { throw "差分生成校验失败：$relative，游戏文件未改动。" }
         }
+        # 首次安装展示完整赞赏图片，关闭即可继续，不要求付款。
+        . (Join-Path $PSScriptRoot 'support.ps1')
+        Show-SupportNotice -Root $root
         foreach ($property in $manifest.originalHashes.PSObject.Properties) {
             $savedPath = Get-SafePath $backup $property.Name
             if (!(Test-Path -LiteralPath $savedPath)) { Copy-Safe (Get-SafePath $game $property.Name) $savedPath }

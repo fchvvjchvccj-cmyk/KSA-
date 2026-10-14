@@ -1,0 +1,11 @@
+{
+  "result": "passed",
+  "checks": 8,
+  "fullImagePreserved": true,
+  "freeContinueAvailable": true,
+  "noticeRecordedOnlyAfterSuccessfulPresentation": true,
+  "repeatedNoticeSuppressed": true,
+  "imageReleasedAfterClose": true,
+  "userWindowsOpened": false,
+  "imageSha256": "8d3379d95357bdad18d072f9f28785a30b7e12ac0ea99a484374d6a0d099a37f"
+}
