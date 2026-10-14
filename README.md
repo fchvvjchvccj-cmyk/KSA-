@@ -80,4 +80,4 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1 -A
 - `scripts/install.ps1`：无需 Python 或额外开发工具的安装/还原脚本。
 - `tools/build-distribution.py`：维护者从本地已验证的汉化工作区重新生成发布文件的工具，需要 Python；普通玩家不需要运行。
 
-本项目为非官方汉化，游戏名称及游戏资源归原权利人所有。请自行取得游戏，不要将游戏本体、原始备份或本机字体提交到仓库。
+本项目为非官方汉化，游戏名称及游戏资源归原权利人所有。请自行取得游戏。
