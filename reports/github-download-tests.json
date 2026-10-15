@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-15",
+  "result": "passed",
+  "packages": [
+    {
+      "package": "source-main",
+      "archiveSha256": "9fcda20d27997f9cecc6c3a24825869d3fcf066979eaefa8bb44a045af395bd8",
+      "installationAndRestore": "passed",
+      "gameStarted": false
+    },
+    {
+      "package": "release-5602",
+      "archiveSha256": "e5f02d387e1952eef12c67b9b61e3f65373667248292bfa78b947caaf1185bf3",
+      "installationAndRestore": "passed",
+      "gameStarted": false
+    }
+  ],
+  "conclusion": "当前 GitHub 源码 ZIP 和 Release 附件可通过完整安装检查；玩家本机失败原因仍需实际文件信息确认。"
+}

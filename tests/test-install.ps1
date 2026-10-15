@@ -77,7 +77,7 @@ try {
     $deltaBytes = [IO.File]::ReadAllBytes($delta)
     try {
         [IO.File]::WriteAllText($delta, 'corrupted delta')
-        Expect-Rejection { & $installer -Action Install -GameDirectory $fixture } '*差分补丁校验失败*'
+        Expect-Rejection { & $installer -Action Install -GameDirectory $fixture } '*差分补丁文件校验失败*'
     } finally { [IO.File]::WriteAllBytes($delta, $deltaBytes) }
     if ((Get-TestHash $save) -ne $saveHash) { throw '存档标记被修改' }
     [pscustomobject]@{

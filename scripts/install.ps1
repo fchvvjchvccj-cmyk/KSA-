@@ -1,12 +1,39 @@
 ﻿param(
     [ValidateSet('Install', 'Restore')][string]$Action = 'Install',
     [ValidateSet('zh-Hans', 'en-US')][string]$Launch,
-    [string]$GameDirectory
+    [string]$GameDirectory,
+    [switch]$CheckPackage
 )
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $manifest = Get-Content -LiteralPath (Join-Path $root 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $remembered = Join-Path $root '.install-path.txt'
+function Assert-PackageFile([string]$relative, [string]$expectedHash, [string]$kind) {
+    $base = [IO.Path]::GetFullPath($root).TrimEnd('\') + '\'
+    $path = [IO.Path]::GetFullPath((Join-Path $root $relative))
+    if (!$path.StartsWith($base, [StringComparison]::OrdinalIgnoreCase)) { throw '补丁路径越出了指定目录。' }
+    if (!(Test-Path -LiteralPath $path -PathType Leaf)) {
+        throw "${kind}文件缺失：$relative`n完整路径：$path`n请从 GitHub Releases 重新下载对应游戏版本的完整 ZIP，解压到新的文件夹后运行。若解压后文件消失，请查看安全软件的保护历史，确认原因；不要跳过文件校验。"
+    }
+    $actualHash = (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant()
+    if ($actualHash -ne $expectedHash) {
+        throw "${kind}文件校验失败：$relative`n完整路径：$path`n预期 SHA256：$expectedHash`n实际 SHA256：$actualHash`n文件内容与此包清单不同，可能是混用了不同版本或下载、解压不完整。请重新下载完整 ZIP 并解压到新的文件夹，不要覆盖旧补丁目录。"
+    }
+}
+# 先检查补丁包自身，避免把缺失负载误报为游戏安装问题。
+if ($Action -eq 'Install' -or $CheckPackage) {
+    foreach ($property in $manifest.files.PSObject.Properties) {
+        Assert-PackageFile $property.Value $manifest.patchedHashes.PSObject.Properties[$property.Name].Value '汉化'
+    }
+    foreach ($property in $manifest.deltas.PSObject.Properties) {
+        Assert-PackageFile $property.Value.path $property.Value.sha256 '差分补丁'
+    }
+}
+if ($CheckPackage) {
+    if ($Launch -or $GameDirectory -or $Action -ne 'Install') { throw '检查汉化包时请勿指定安装、还原或启动参数。' }
+    Write-Output "汉化包完整性检查通过，适用游戏版本：$($manifest.gameBuild)。未安装或启动游戏。"
+    return
+}
 if (!$GameDirectory) {
     if (Test-Path -LiteralPath $remembered) { $GameDirectory = [IO.File]::ReadAllText($remembered).Trim() }
     elseif (Test-Path -LiteralPath (Join-Path $root 'KSA.exe')) { $GameDirectory = $root }
@@ -86,12 +113,6 @@ if ($Action -eq 'Restore') {
     }
     Write-Output '已恢复原始英文程序文件；存档未改动。原始备份仍保留在游戏目录的 .ksa-zh-backup 中。'
 } else {
-    foreach ($property in $manifest.files.PSObject.Properties) {
-        if ((Get-Hash (Get-SafePath $root $property.Value)) -ne $expected[$property.Name]) { throw "汉化文件校验失败：$($property.Name)" }
-    }
-    foreach ($property in $manifest.deltas.PSObject.Properties) {
-        if ((Get-Hash (Get-SafePath $root $property.Value.path)) -ne $property.Value.sha256) { throw "差分补丁校验失败：$($property.Name)" }
-    }
     if (!('KsaPatch.Delta' -as [type])) {
         Add-Type -TypeDefinition @'
 using System;

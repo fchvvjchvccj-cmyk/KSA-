@@ -1,0 +1,11 @@
+﻿{
+    "result":  "passed",
+    "checks":  5,
+    "powershellVersion":  "5.1.22621.6133",
+    "intactPackageAccepted":  true,
+    "missingDllReported":  true,
+    "mismatchedDllHashesReported":  true,
+    "corruptedDeltaRejected":  true,
+    "gameDirectoryNotRequired":  true,
+    "gameStarted":  false
+}
